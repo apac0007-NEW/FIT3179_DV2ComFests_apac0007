@@ -1,0 +1,732 @@
+[
+ {
+  "date": "2026-10-29",
+  "category": "Arts & culture",
+  "n": 14
+ },
+ {
+  "date": "2026-10-29",
+  "category": "Family",
+  "n": 2
+ },
+ {
+  "date": "2026-10-29",
+  "category": "Festivals & markets",
+  "n": 1
+ },
+ {
+  "date": "2026-10-29",
+  "category": "Fitness & wellbeing",
+  "n": 54
+ },
+ {
+  "date": "2026-10-29",
+  "category": "Library",
+  "n": 38
+ },
+ {
+  "date": "2026-10-29",
+  "category": "Nature & green",
+  "n": 3
+ },
+ {
+  "date": "2026-10-29",
+  "category": "Other",
+  "n": 2
+ },
+ {
+  "date": "2026-10-29",
+  "category": "Workshops & tours",
+  "n": 1
+ },
+ {
+  "date": "2026-10-30",
+  "category": "Arts & culture",
+  "n": 13
+ },
+ {
+  "date": "2026-10-30",
+  "category": "Family",
+  "n": 2
+ },
+ {
+  "date": "2026-10-30",
+  "category": "Fitness & wellbeing",
+  "n": 42
+ },
+ {
+  "date": "2026-10-30",
+  "category": "Library",
+  "n": 38
+ },
+ {
+  "date": "2026-10-30",
+  "category": "Nature & green",
+  "n": 4
+ },
+ {
+  "date": "2026-10-30",
+  "category": "Other",
+  "n": 1
+ },
+ {
+  "date": "2026-10-30",
+  "category": "Workshops & tours",
+  "n": 1
+ },
+ {
+  "date": "2026-10-31",
+  "category": "Arts & culture",
+  "n": 14
+ },
+ {
+  "date": "2026-10-31",
+  "category": "Festivals & markets",
+  "n": 4
+ },
+ {
+  "date": "2026-10-31",
+  "category": "Fitness & wellbeing",
+  "n": 52
+ },
+ {
+  "date": "2026-10-31",
+  "category": "Library",
+  "n": 30
+ },
+ {
+  "date": "2026-10-31",
+  "category": "Nature & green",
+  "n": 5
+ },
+ {
+  "date": "2026-10-31",
+  "category": "Other",
+  "n": 1
+ },
+ {
+  "date": "2026-10-31",
+  "category": "Workshops & tours",
+  "n": 2
+ },
+ {
+  "date": "2026-11-01",
+  "category": "Arts & culture",
+  "n": 11
+ },
+ {
+  "date": "2026-11-01",
+  "category": "Family",
+  "n": 1
+ },
+ {
+  "date": "2026-11-01",
+  "category": "Festivals & markets",
+  "n": 5
+ },
+ {
+  "date": "2026-11-01",
+  "category": "Fitness & wellbeing",
+  "n": 19
+ },
+ {
+  "date": "2026-11-01",
+  "category": "Library",
+  "n": 11
+ },
+ {
+  "date": "2026-11-01",
+  "category": "Nature & green",
+  "n": 2
+ },
+ {
+  "date": "2026-11-01",
+  "category": "Other",
+  "n": 1
+ },
+ {
+  "date": "2026-11-02",
+  "category": "Arts & culture",
+  "n": 9
+ },
+ {
+  "date": "2026-11-02",
+  "category": "Family",
+  "n": 1
+ },
+ {
+  "date": "2026-11-02",
+  "category": "Fitness & wellbeing",
+  "n": 52
+ },
+ {
+  "date": "2026-11-02",
+  "category": "Library",
+  "n": 21
+ },
+ {
+  "date": "2026-11-02",
+  "category": "Nature & green",
+  "n": 2
+ },
+ {
+  "date": "2026-11-02",
+  "category": "Other",
+  "n": 2
+ },
+ {
+  "date": "2026-11-03",
+  "category": "Arts & culture",
+  "n": 8
+ },
+ {
+  "date": "2026-11-03",
+  "category": "Family",
+  "n": 1
+ },
+ {
+  "date": "2026-11-03",
+  "category": "Fitness & wellbeing",
+  "n": 43
+ },
+ {
+  "date": "2026-11-03",
+  "category": "Library",
+  "n": 32
+ },
+ {
+  "date": "2026-11-03",
+  "category": "Nature & green",
+  "n": 4
+ },
+ {
+  "date": "2026-11-03",
+  "category": "Other",
+  "n": 2
+ },
+ {
+  "date": "2026-11-03",
+  "category": "Workshops & tours",
+  "n": 1
+ },
+ {
+  "date": "2026-11-04",
+  "category": "Arts & culture",
+  "n": 11
+ },
+ {
+  "date": "2026-11-04",
+  "category": "Family",
+  "n": 4
+ },
+ {
+  "date": "2026-11-04",
+  "category": "Festivals & markets",
+  "n": 3
+ },
+ {
+  "date": "2026-11-04",
+  "category": "Fitness & wellbeing",
+  "n": 54
+ },
+ {
+  "date": "2026-11-04",
+  "category": "Library",
+  "n": 33
+ },
+ {
+  "date": "2026-11-04",
+  "category": "Nature & green",
+  "n": 3
+ },
+ {
+  "date": "2026-11-04",
+  "category": "Other",
+  "n": 3
+ },
+ {
+  "date": "2026-11-04",
+  "category": "Workshops & tours",
+  "n": 2
+ },
+ {
+  "date": "2026-11-05",
+  "category": "Arts & culture",
+  "n": 9
+ },
+ {
+  "date": "2026-11-05",
+  "category": "Festivals & markets",
+  "n": 1
+ },
+ {
+  "date": "2026-11-05",
+  "category": "Fitness & wellbeing",
+  "n": 54
+ },
+ {
+  "date": "2026-11-05",
+  "category": "Library",
+  "n": 41
+ },
+ {
+  "date": "2026-11-05",
+  "category": "Nature & green",
+  "n": 3
+ },
+ {
+  "date": "2026-11-05",
+  "category": "Other",
+  "n": 2
+ },
+ {
+  "date": "2026-11-05",
+  "category": "Workshops & tours",
+  "n": 1
+ },
+ {
+  "date": "2026-11-06",
+  "category": "Arts & culture",
+  "n": 10
+ },
+ {
+  "date": "2026-11-06",
+  "category": "Family",
+  "n": 4
+ },
+ {
+  "date": "2026-11-06",
+  "category": "Festivals & markets",
+  "n": 1
+ },
+ {
+  "date": "2026-11-06",
+  "category": "Fitness & wellbeing",
+  "n": 42
+ },
+ {
+  "date": "2026-11-06",
+  "category": "Library",
+  "n": 41
+ },
+ {
+  "date": "2026-11-06",
+  "category": "Nature & green",
+  "n": 2
+ },
+ {
+  "date": "2026-11-06",
+  "category": "Other",
+  "n": 1
+ },
+ {
+  "date": "2026-11-07",
+  "category": "Arts & culture",
+  "n": 13
+ },
+ {
+  "date": "2026-11-07",
+  "category": "Festivals & markets",
+  "n": 2
+ },
+ {
+  "date": "2026-11-07",
+  "category": "Fitness & wellbeing",
+  "n": 54
+ },
+ {
+  "date": "2026-11-07",
+  "category": "Library",
+  "n": 21
+ },
+ {
+  "date": "2026-11-07",
+  "category": "Nature & green",
+  "n": 5
+ },
+ {
+  "date": "2026-11-07",
+  "category": "Workshops & tours",
+  "n": 3
+ },
+ {
+  "date": "2026-11-08",
+  "category": "Arts & culture",
+  "n": 8
+ },
+ {
+  "date": "2026-11-08",
+  "category": "Festivals & markets",
+  "n": 2
+ },
+ {
+  "date": "2026-11-08",
+  "category": "Fitness & wellbeing",
+  "n": 24
+ },
+ {
+  "date": "2026-11-08",
+  "category": "Library",
+  "n": 15
+ },
+ {
+  "date": "2026-11-08",
+  "category": "Nature & green",
+  "n": 4
+ },
+ {
+  "date": "2026-11-08",
+  "category": "Other",
+  "n": 1
+ },
+ {
+  "date": "2026-11-09",
+  "category": "Arts & culture",
+  "n": 7
+ },
+ {
+  "date": "2026-11-09",
+  "category": "Family",
+  "n": 2
+ },
+ {
+  "date": "2026-11-09",
+  "category": "Fitness & wellbeing",
+  "n": 52
+ },
+ {
+  "date": "2026-11-09",
+  "category": "Library",
+  "n": 20
+ },
+ {
+  "date": "2026-11-09",
+  "category": "Nature & green",
+  "n": 2
+ },
+ {
+  "date": "2026-11-10",
+  "category": "Arts & culture",
+  "n": 7
+ },
+ {
+  "date": "2026-11-10",
+  "category": "Family",
+  "n": 1
+ },
+ {
+  "date": "2026-11-10",
+  "category": "Fitness & wellbeing",
+  "n": 43
+ },
+ {
+  "date": "2026-11-10",
+  "category": "Library",
+  "n": 36
+ },
+ {
+  "date": "2026-11-10",
+  "category": "Nature & green",
+  "n": 4
+ },
+ {
+  "date": "2026-11-10",
+  "category": "Other",
+  "n": 2
+ },
+ {
+  "date": "2026-11-10",
+  "category": "Workshops & tours",
+  "n": 1
+ },
+ {
+  "date": "2026-11-11",
+  "category": "Arts & culture",
+  "n": 11
+ },
+ {
+  "date": "2026-11-11",
+  "category": "Family",
+  "n": 4
+ },
+ {
+  "date": "2026-11-11",
+  "category": "Festivals & markets",
+  "n": 2
+ },
+ {
+  "date": "2026-11-11",
+  "category": "Fitness & wellbeing",
+  "n": 52
+ },
+ {
+  "date": "2026-11-11",
+  "category": "Library",
+  "n": 33
+ },
+ {
+  "date": "2026-11-11",
+  "category": "Nature & green",
+  "n": 3
+ },
+ {
+  "date": "2026-11-11",
+  "category": "Other",
+  "n": 3
+ },
+ {
+  "date": "2026-11-12",
+  "category": "Arts & culture",
+  "n": 13
+ },
+ {
+  "date": "2026-11-12",
+  "category": "Family",
+  "n": 2
+ },
+ {
+  "date": "2026-11-12",
+  "category": "Festivals & markets",
+  "n": 1
+ },
+ {
+  "date": "2026-11-12",
+  "category": "Fitness & wellbeing",
+  "n": 54
+ },
+ {
+  "date": "2026-11-12",
+  "category": "Library",
+  "n": 45
+ },
+ {
+  "date": "2026-11-12",
+  "category": "Nature & green",
+  "n": 3
+ },
+ {
+  "date": "2026-11-12",
+  "category": "Other",
+  "n": 2
+ },
+ {
+  "date": "2026-11-12",
+  "category": "Workshops & tours",
+  "n": 1
+ },
+ {
+  "date": "2026-11-13",
+  "category": "Arts & culture",
+  "n": 11
+ },
+ {
+  "date": "2026-11-13",
+  "category": "Family",
+  "n": 2
+ },
+ {
+  "date": "2026-11-13",
+  "category": "Festivals & markets",
+  "n": 1
+ },
+ {
+  "date": "2026-11-13",
+  "category": "Fitness & wellbeing",
+  "n": 43
+ },
+ {
+  "date": "2026-11-13",
+  "category": "Library",
+  "n": 40
+ },
+ {
+  "date": "2026-11-13",
+  "category": "Nature & green",
+  "n": 3
+ },
+ {
+  "date": "2026-11-13",
+  "category": "Other",
+  "n": 1
+ },
+ {
+  "date": "2026-11-14",
+  "category": "Arts & culture",
+  "n": 9
+ },
+ {
+  "date": "2026-11-14",
+  "category": "Fitness & wellbeing",
+  "n": 55
+ },
+ {
+  "date": "2026-11-14",
+  "category": "Library",
+  "n": 23
+ },
+ {
+  "date": "2026-11-14",
+  "category": "Nature & green",
+  "n": 3
+ },
+ {
+  "date": "2026-11-14",
+  "category": "Workshops & tours",
+  "n": 3
+ },
+ {
+  "date": "2026-11-15",
+  "category": "Arts & culture",
+  "n": 9
+ },
+ {
+  "date": "2026-11-15",
+  "category": "Festivals & markets",
+  "n": 4
+ },
+ {
+  "date": "2026-11-15",
+  "category": "Fitness & wellbeing",
+  "n": 20
+ },
+ {
+  "date": "2026-11-15",
+  "category": "Library",
+  "n": 12
+ },
+ {
+  "date": "2026-11-15",
+  "category": "Nature & green",
+  "n": 3
+ },
+ {
+  "date": "2026-11-15",
+  "category": "Other",
+  "n": 1
+ },
+ {
+  "date": "2026-11-16",
+  "category": "Arts & culture",
+  "n": 8
+ },
+ {
+  "date": "2026-11-16",
+  "category": "Family",
+  "n": 1
+ },
+ {
+  "date": "2026-11-16",
+  "category": "Fitness & wellbeing",
+  "n": 50
+ },
+ {
+  "date": "2026-11-16",
+  "category": "Library",
+  "n": 20
+ },
+ {
+  "date": "2026-11-16",
+  "category": "Nature & green",
+  "n": 2
+ },
+ {
+  "date": "2026-11-16",
+  "category": "Other",
+  "n": 2
+ },
+ {
+  "date": "2026-11-17",
+  "category": "Arts & culture",
+  "n": 9
+ },
+ {
+  "date": "2026-11-17",
+  "category": "Fitness & wellbeing",
+  "n": 41
+ },
+ {
+  "date": "2026-11-17",
+  "category": "Library",
+  "n": 32
+ },
+ {
+  "date": "2026-11-17",
+  "category": "Nature & green",
+  "n": 5
+ },
+ {
+  "date": "2026-11-17",
+  "category": "Other",
+  "n": 3
+ },
+ {
+  "date": "2026-11-17",
+  "category": "Workshops & tours",
+  "n": 1
+ },
+ {
+  "date": "2026-11-18",
+  "category": "Arts & culture",
+  "n": 10
+ },
+ {
+  "date": "2026-11-18",
+  "category": "Family",
+  "n": 4
+ },
+ {
+  "date": "2026-11-18",
+  "category": "Festivals & markets",
+  "n": 2
+ },
+ {
+  "date": "2026-11-18",
+  "category": "Fitness & wellbeing",
+  "n": 54
+ },
+ {
+  "date": "2026-11-18",
+  "category": "Library",
+  "n": 34
+ },
+ {
+  "date": "2026-11-18",
+  "category": "Nature & green",
+  "n": 4
+ },
+ {
+  "date": "2026-11-18",
+  "category": "Other",
+  "n": 3
+ },
+ {
+  "date": "2026-11-19",
+  "category": "Arts & culture",
+  "n": 2
+ },
+ {
+  "date": "2026-11-19",
+  "category": "Festivals & markets",
+  "n": 1
+ },
+ {
+  "date": "2026-11-19",
+  "category": "Fitness & wellbeing",
+  "n": 25
+ },
+ {
+  "date": "2026-11-19",
+  "category": "Library",
+  "n": 5
+ },
+ {
+  "date": "2026-11-19",
+  "category": "Other",
+  "n": 1
+ },
+ {
+  "date": "2026-11-19",
+  "category": "Workshops & tours",
+  "n": 1
+ }
+]

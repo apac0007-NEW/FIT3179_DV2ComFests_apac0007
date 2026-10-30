@@ -1,0 +1,127 @@
+[
+ {
+  "venueGroup": "Community hall",
+  "category": "Arts & culture",
+  "n": 13
+ },
+ {
+  "venueGroup": "Community hall",
+  "category": "Fitness & wellbeing",
+  "n": 141
+ },
+ {
+  "venueGroup": "Community hall",
+  "category": "Other",
+  "n": 9
+ },
+ {
+  "venueGroup": "Community hall",
+  "category": "Workshops & tours",
+  "n": 7
+ },
+ {
+  "venueGroup": "Council venue",
+  "category": "Arts & culture",
+  "n": 171
+ },
+ {
+  "venueGroup": "Council venue",
+  "category": "Family",
+  "n": 2
+ },
+ {
+  "venueGroup": "Council venue",
+  "category": "Festivals & markets",
+  "n": 11
+ },
+ {
+  "venueGroup": "Council venue",
+  "category": "Fitness & wellbeing",
+  "n": 85
+ },
+ {
+  "venueGroup": "Council venue",
+  "category": "Nature & green",
+  "n": 1
+ },
+ {
+  "venueGroup": "Council venue",
+  "category": "Other",
+  "n": 18
+ },
+ {
+  "venueGroup": "Council venue",
+  "category": "Workshops & tours",
+  "n": 4
+ },
+ {
+  "venueGroup": "Library",
+  "category": "Library",
+  "n": 619
+ },
+ {
+  "venueGroup": "Non-council venue",
+  "category": "Arts & culture",
+  "n": 22
+ },
+ {
+  "venueGroup": "Non-council venue",
+  "category": "Festivals & markets",
+  "n": 3
+ },
+ {
+  "venueGroup": "Non-council venue",
+  "category": "Fitness & wellbeing",
+  "n": 115
+ },
+ {
+  "venueGroup": "Non-council venue",
+  "category": "Workshops & tours",
+  "n": 1
+ },
+ {
+  "venueGroup": "Park",
+  "category": "Arts & culture",
+  "n": 10
+ },
+ {
+  "venueGroup": "Park",
+  "category": "Family",
+  "n": 29
+ },
+ {
+  "venueGroup": "Park",
+  "category": "Festivals & markets",
+  "n": 16
+ },
+ {
+  "venueGroup": "Park",
+  "category": "Fitness & wellbeing",
+  "n": 518
+ },
+ {
+  "venueGroup": "Park",
+  "category": "Library",
+  "n": 2
+ },
+ {
+  "venueGroup": "Park",
+  "category": "Nature & green",
+  "n": 68
+ },
+ {
+  "venueGroup": "Park",
+  "category": "Other",
+  "n": 7
+ },
+ {
+  "venueGroup": "Park",
+  "category": "Workshops & tours",
+  "n": 6
+ },
+ {
+  "venueGroup": "Swimming pool",
+  "category": "Fitness & wellbeing",
+  "n": 120
+ }
+]

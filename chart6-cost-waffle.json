@@ -1,0 +1,111 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Waffle charts: each square is 1 in every 100 events, coloured by free, paid or cost not stated, for all events and for festivals and markets",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "data": {
+    "url": "waffle.json"
+  },
+  "facet": {
+    "column": {
+      "field": "set",
+      "type": "nominal",
+      "title": null,
+      "header": {
+        "labelFont": "Bricolage Grotesque",
+        "labelFontSize": 14,
+        "labelFontWeight": 700,
+        "labelPadding": 8,
+        "labelOrient": "top",
+        "labelColor": "#1d2540"
+      },
+      "sort": [
+        "All events (1,998)",
+        "Festivals and markets (30)"
+      ]
+    }
+  },
+  "spec": {
+    "width": 230,
+    "height": 230,
+    "mark": {
+      "type": "rect",
+      "stroke": "#fff",
+      "strokeWidth": 3
+    },
+    "encoding": {
+      "x": {
+        "field": "col",
+        "type": "ordinal",
+        "axis": null
+      },
+      "y": {
+        "field": "row",
+        "type": "ordinal",
+        "axis": null
+      },
+      "color": {
+        "field": "group",
+        "type": "nominal",
+        "sort": [
+          "Free",
+          "Paid",
+          "Not stated"
+        ],
+        "scale": {
+          "domain": [
+            "Free",
+            "Paid",
+            "Not stated"
+          ],
+          "range": [
+            "#138a8a",
+            "#f2a900",
+            "#c9ced9"
+          ]
+        },
+        "legend": {
+          "title": null,
+          "orient": "bottom",
+          "symbolType": "square"
+        }
+      },
+      "tooltip": [
+        {
+          "field": "group",
+          "title": "Cost"
+        }
+      ]
+    }
+  }
+}

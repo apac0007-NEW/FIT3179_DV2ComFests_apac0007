@@ -1,0 +1,842 @@
+[
+ {
+  "dow": "Mon",
+  "hour": 0,
+  "n": 6
+ },
+ {
+  "dow": "Mon",
+  "hour": 1,
+  "n": 0
+ },
+ {
+  "dow": "Mon",
+  "hour": 2,
+  "n": 0
+ },
+ {
+  "dow": "Mon",
+  "hour": 3,
+  "n": 0
+ },
+ {
+  "dow": "Mon",
+  "hour": 4,
+  "n": 0
+ },
+ {
+  "dow": "Mon",
+  "hour": 5,
+  "n": 0
+ },
+ {
+  "dow": "Mon",
+  "hour": 6,
+  "n": 6
+ },
+ {
+  "dow": "Mon",
+  "hour": 7,
+  "n": 3
+ },
+ {
+  "dow": "Mon",
+  "hour": 8,
+  "n": 9
+ },
+ {
+  "dow": "Mon",
+  "hour": 9,
+  "n": 73
+ },
+ {
+  "dow": "Mon",
+  "hour": 10,
+  "n": 56
+ },
+ {
+  "dow": "Mon",
+  "hour": 11,
+  "n": 34
+ },
+ {
+  "dow": "Mon",
+  "hour": 12,
+  "n": 8
+ },
+ {
+  "dow": "Mon",
+  "hour": 13,
+  "n": 14
+ },
+ {
+  "dow": "Mon",
+  "hour": 14,
+  "n": 6
+ },
+ {
+  "dow": "Mon",
+  "hour": 15,
+  "n": 4
+ },
+ {
+  "dow": "Mon",
+  "hour": 16,
+  "n": 3
+ },
+ {
+  "dow": "Mon",
+  "hour": 17,
+  "n": 18
+ },
+ {
+  "dow": "Mon",
+  "hour": 18,
+  "n": 10
+ },
+ {
+  "dow": "Mon",
+  "hour": 19,
+  "n": 3
+ },
+ {
+  "dow": "Mon",
+  "hour": 20,
+  "n": 0
+ },
+ {
+  "dow": "Mon",
+  "hour": 21,
+  "n": 0
+ },
+ {
+  "dow": "Mon",
+  "hour": 22,
+  "n": 0
+ },
+ {
+  "dow": "Mon",
+  "hour": 23,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 0,
+  "n": 6
+ },
+ {
+  "dow": "Tue",
+  "hour": 1,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 2,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 3,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 4,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 5,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 6,
+  "n": 3
+ },
+ {
+  "dow": "Tue",
+  "hour": 7,
+  "n": 6
+ },
+ {
+  "dow": "Tue",
+  "hour": 8,
+  "n": 26
+ },
+ {
+  "dow": "Tue",
+  "hour": 9,
+  "n": 58
+ },
+ {
+  "dow": "Tue",
+  "hour": 10,
+  "n": 79
+ },
+ {
+  "dow": "Tue",
+  "hour": 11,
+  "n": 27
+ },
+ {
+  "dow": "Tue",
+  "hour": 12,
+  "n": 13
+ },
+ {
+  "dow": "Tue",
+  "hour": 13,
+  "n": 15
+ },
+ {
+  "dow": "Tue",
+  "hour": 14,
+  "n": 10
+ },
+ {
+  "dow": "Tue",
+  "hour": 15,
+  "n": 11
+ },
+ {
+  "dow": "Tue",
+  "hour": 16,
+  "n": 7
+ },
+ {
+  "dow": "Tue",
+  "hour": 17,
+  "n": 5
+ },
+ {
+  "dow": "Tue",
+  "hour": 18,
+  "n": 9
+ },
+ {
+  "dow": "Tue",
+  "hour": 19,
+  "n": 1
+ },
+ {
+  "dow": "Tue",
+  "hour": 20,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 21,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 22,
+  "n": 0
+ },
+ {
+  "dow": "Tue",
+  "hour": 23,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 0,
+  "n": 6
+ },
+ {
+  "dow": "Wed",
+  "hour": 1,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 2,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 3,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 4,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 5,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 6,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 7,
+  "n": 12
+ },
+ {
+  "dow": "Wed",
+  "hour": 8,
+  "n": 31
+ },
+ {
+  "dow": "Wed",
+  "hour": 9,
+  "n": 84
+ },
+ {
+  "dow": "Wed",
+  "hour": 10,
+  "n": 68
+ },
+ {
+  "dow": "Wed",
+  "hour": 11,
+  "n": 29
+ },
+ {
+  "dow": "Wed",
+  "hour": 12,
+  "n": 6
+ },
+ {
+  "dow": "Wed",
+  "hour": 13,
+  "n": 8
+ },
+ {
+  "dow": "Wed",
+  "hour": 14,
+  "n": 25
+ },
+ {
+  "dow": "Wed",
+  "hour": 15,
+  "n": 11
+ },
+ {
+  "dow": "Wed",
+  "hour": 16,
+  "n": 6
+ },
+ {
+  "dow": "Wed",
+  "hour": 17,
+  "n": 28
+ },
+ {
+  "dow": "Wed",
+  "hour": 18,
+  "n": 16
+ },
+ {
+  "dow": "Wed",
+  "hour": 19,
+  "n": 2
+ },
+ {
+  "dow": "Wed",
+  "hour": 20,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 21,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 22,
+  "n": 0
+ },
+ {
+  "dow": "Wed",
+  "hour": 23,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 0,
+  "n": 7
+ },
+ {
+  "dow": "Thu",
+  "hour": 1,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 2,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 3,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 4,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 5,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 6,
+  "n": 8
+ },
+ {
+  "dow": "Thu",
+  "hour": 7,
+  "n": 12
+ },
+ {
+  "dow": "Thu",
+  "hour": 8,
+  "n": 25
+ },
+ {
+  "dow": "Thu",
+  "hour": 9,
+  "n": 111
+ },
+ {
+  "dow": "Thu",
+  "hour": 10,
+  "n": 63
+ },
+ {
+  "dow": "Thu",
+  "hour": 11,
+  "n": 37
+ },
+ {
+  "dow": "Thu",
+  "hour": 12,
+  "n": 10
+ },
+ {
+  "dow": "Thu",
+  "hour": 13,
+  "n": 29
+ },
+ {
+  "dow": "Thu",
+  "hour": 14,
+  "n": 17
+ },
+ {
+  "dow": "Thu",
+  "hour": 15,
+  "n": 11
+ },
+ {
+  "dow": "Thu",
+  "hour": 16,
+  "n": 10
+ },
+ {
+  "dow": "Thu",
+  "hour": 17,
+  "n": 19
+ },
+ {
+  "dow": "Thu",
+  "hour": 18,
+  "n": 20
+ },
+ {
+  "dow": "Thu",
+  "hour": 19,
+  "n": 3
+ },
+ {
+  "dow": "Thu",
+  "hour": 20,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 21,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 22,
+  "n": 0
+ },
+ {
+  "dow": "Thu",
+  "hour": 23,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 0,
+  "n": 5
+ },
+ {
+  "dow": "Fri",
+  "hour": 1,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 2,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 3,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 4,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 5,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 6,
+  "n": 3
+ },
+ {
+  "dow": "Fri",
+  "hour": 7,
+  "n": 3
+ },
+ {
+  "dow": "Fri",
+  "hour": 8,
+  "n": 16
+ },
+ {
+  "dow": "Fri",
+  "hour": 9,
+  "n": 91
+ },
+ {
+  "dow": "Fri",
+  "hour": 10,
+  "n": 88
+ },
+ {
+  "dow": "Fri",
+  "hour": 11,
+  "n": 28
+ },
+ {
+  "dow": "Fri",
+  "hour": 12,
+  "n": 9
+ },
+ {
+  "dow": "Fri",
+  "hour": 13,
+  "n": 19
+ },
+ {
+  "dow": "Fri",
+  "hour": 14,
+  "n": 4
+ },
+ {
+  "dow": "Fri",
+  "hour": 15,
+  "n": 13
+ },
+ {
+  "dow": "Fri",
+  "hour": 16,
+  "n": 15
+ },
+ {
+  "dow": "Fri",
+  "hour": 17,
+  "n": 4
+ },
+ {
+  "dow": "Fri",
+  "hour": 18,
+  "n": 1
+ },
+ {
+  "dow": "Fri",
+  "hour": 19,
+  "n": 4
+ },
+ {
+  "dow": "Fri",
+  "hour": 20,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 21,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 22,
+  "n": 0
+ },
+ {
+  "dow": "Fri",
+  "hour": 23,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 0,
+  "n": 6
+ },
+ {
+  "dow": "Sat",
+  "hour": 1,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 2,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 3,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 4,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 5,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 6,
+  "n": 1
+ },
+ {
+  "dow": "Sat",
+  "hour": 7,
+  "n": 89
+ },
+ {
+  "dow": "Sat",
+  "hour": 8,
+  "n": 34
+ },
+ {
+  "dow": "Sat",
+  "hour": 9,
+  "n": 29
+ },
+ {
+  "dow": "Sat",
+  "hour": 10,
+  "n": 63
+ },
+ {
+  "dow": "Sat",
+  "hour": 11,
+  "n": 15
+ },
+ {
+  "dow": "Sat",
+  "hour": 12,
+  "n": 11
+ },
+ {
+  "dow": "Sat",
+  "hour": 13,
+  "n": 7
+ },
+ {
+  "dow": "Sat",
+  "hour": 14,
+  "n": 11
+ },
+ {
+  "dow": "Sat",
+  "hour": 15,
+  "n": 15
+ },
+ {
+  "dow": "Sat",
+  "hour": 16,
+  "n": 10
+ },
+ {
+  "dow": "Sat",
+  "hour": 17,
+  "n": 3
+ },
+ {
+  "dow": "Sat",
+  "hour": 18,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 19,
+  "n": 4
+ },
+ {
+  "dow": "Sat",
+  "hour": 20,
+  "n": 1
+ },
+ {
+  "dow": "Sat",
+  "hour": 21,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 22,
+  "n": 0
+ },
+ {
+  "dow": "Sat",
+  "hour": 23,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 0,
+  "n": 6
+ },
+ {
+  "dow": "Sun",
+  "hour": 1,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 2,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 3,
+  "n": 1
+ },
+ {
+  "dow": "Sun",
+  "hour": 4,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 5,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 6,
+  "n": 3
+ },
+ {
+  "dow": "Sun",
+  "hour": 7,
+  "n": 8
+ },
+ {
+  "dow": "Sun",
+  "hour": 8,
+  "n": 27
+ },
+ {
+  "dow": "Sun",
+  "hour": 9,
+  "n": 9
+ },
+ {
+  "dow": "Sun",
+  "hour": 10,
+  "n": 28
+ },
+ {
+  "dow": "Sun",
+  "hour": 11,
+  "n": 11
+ },
+ {
+  "dow": "Sun",
+  "hour": 12,
+  "n": 5
+ },
+ {
+  "dow": "Sun",
+  "hour": 13,
+  "n": 17
+ },
+ {
+  "dow": "Sun",
+  "hour": 14,
+  "n": 12
+ },
+ {
+  "dow": "Sun",
+  "hour": 15,
+  "n": 14
+ },
+ {
+  "dow": "Sun",
+  "hour": 16,
+  "n": 10
+ },
+ {
+  "dow": "Sun",
+  "hour": 17,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 18,
+  "n": 1
+ },
+ {
+  "dow": "Sun",
+  "hour": 19,
+  "n": 1
+ },
+ {
+  "dow": "Sun",
+  "hour": 20,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 21,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 22,
+  "n": 0
+ },
+ {
+  "dow": "Sun",
+  "hour": 23,
+  "n": 0
+ }
+]

@@ -1,0 +1,228 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Heat map of event start hour by day of the week",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 290,
+  "data": {
+    "url": "dow_hour.json"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fff",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "hour",
+          "type": "ordinal",
+          "sort": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "title": "Start hour (24-hour clock; 0 = midnight or all-day listings)",
+          "axis": {
+            "labelAngle": 0,
+            "labelOverlap": "parity"
+          }
+        },
+        "y": {
+          "field": "dow",
+          "type": "ordinal",
+          "sort": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "title": null
+        },
+        "color": {
+          "field": "n",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              8.88,
+              33.3,
+              66.6,
+              111
+            ],
+            "range": [
+              "#e6f5f1",
+              "#9fdccb",
+              "#3fb6a8",
+              "#12828e",
+              "#083a5c"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "title": "Events",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 240,
+            "gradientThickness": 10
+          }
+        },
+        "tooltip": [
+          {
+            "field": "dow",
+            "type": "nominal",
+            "title": "Day"
+          },
+          {
+            "field": "hour",
+            "type": "ordinal",
+            "title": "Hour"
+          },
+          {
+            "field": "n",
+            "type": "quantitative",
+            "title": "Events"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "hour": 9,
+            "dow": "Thu",
+            "t": "Busiest: Thu 9:00 (111)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#c2306b",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "align": "left",
+        "dx": 14
+      },
+      "encoding": {
+        "x": {
+          "field": "hour",
+          "type": "ordinal",
+          "sort": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "title": "Start hour (24-hour clock; 0 = midnight or all-day listings)",
+          "axis": {
+            "labelAngle": 0,
+            "labelOverlap": "parity"
+          }
+        },
+        "y": {
+          "field": "dow",
+          "type": "ordinal",
+          "sort": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "title": null
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

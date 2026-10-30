@@ -1,0 +1,410 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Line chart of formal and informal volunteering rates in Australia from 2010 to 2025",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 340,
+  "data": {
+    "url": "national_trend.json"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": {
+          "filled": true,
+          "size": 90
+        },
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "format": "d",
+            "values": [
+              2010,
+              2014,
+              2020,
+              2025
+            ]
+          },
+          "scale": {
+            "domain": [
+              2008.5,
+              2026.5
+            ]
+          }
+        },
+        "y": {
+          "field": "rate",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "scale": {
+            "domain": [
+              15,
+              40
+            ]
+          }
+        },
+        "color": {
+          "field": "type",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Formal",
+              "Informal"
+            ],
+            "range": [
+              "#138a8a",
+              "#f2a900"
+            ]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top",
+            "symbolType": "stroke"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "type",
+            "type": "nominal"
+          },
+          {
+            "field": "year",
+            "type": "quantitative",
+            "format": "d"
+          },
+          {
+            "field": "rate",
+            "type": "quantitative",
+            "title": "%"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.type == 'Formal'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": 18,
+        "fontSize": 13,
+        "color": "#1d2540",
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "format": "d",
+            "values": [
+              2010,
+              2014,
+              2020,
+              2025
+            ]
+          },
+          "scale": {
+            "domain": [
+              2008.5,
+              2026.5
+            ]
+          }
+        },
+        "y": {
+          "field": "rate",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "scale": {
+            "domain": [
+              15,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "rate",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.type == 'Informal'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": -14,
+        "fontSize": 13,
+        "color": "#8a6100",
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "format": "d",
+            "values": [
+              2010,
+              2014,
+              2020,
+              2025
+            ]
+          },
+          "scale": {
+            "domain": [
+              2008.5,
+              2026.5
+            ]
+          }
+        },
+        "y": {
+          "field": "rate",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "scale": {
+            "domain": [
+              15,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "rate",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2010,
+            "rate": 36.2,
+            "t": "Peak: 36.2% in 2010"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#1d2540",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "align": "left",
+        "dx": 12,
+        "dy": -6
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "format": "d",
+            "values": [
+              2010,
+              2014,
+              2020,
+              2025
+            ]
+          },
+          "scale": {
+            "domain": [
+              2008.5,
+              2026.5
+            ]
+          }
+        },
+        "y": {
+          "field": "rate",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "scale": {
+            "domain": [
+              15,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2022.6,
+            "rate": 27.2,
+            "t": "Down 13.6 points since 2010"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#c2306b",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "align": "center"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "format": "d",
+            "values": [
+              2010,
+              2014,
+              2020,
+              2025
+            ]
+          },
+          "scale": {
+            "domain": [
+              2008.5,
+              2026.5
+            ]
+          }
+        },
+        "y": {
+          "field": "rate",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "scale": {
+            "domain": [
+              15,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2019,
+            "rate": 38.6,
+            "t": "Informal help first measured in 2019"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "color": "#8a6100",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "fontStyle": "italic",
+        "align": "left",
+        "dx": -70
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "format": "d",
+            "values": [
+              2010,
+              2014,
+              2020,
+              2025
+            ]
+          },
+          "scale": {
+            "domain": [
+              2008.5,
+              2026.5
+            ]
+          }
+        },
+        "y": {
+          "field": "rate",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "scale": {
+            "domain": [
+              15,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

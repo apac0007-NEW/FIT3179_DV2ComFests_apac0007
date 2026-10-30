@@ -1,0 +1,133 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar chart of reasons people give for volunteering; reasons about connection are highlighted",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 360,
+  "data": {
+    "url": "national_reasons.json"
+  },
+  "encoding": {
+    "y": {
+      "field": "reason",
+      "type": "nominal",
+      "sort": [
+        "Help others or community",
+        "Personal satisfaction",
+        "To support a cause",
+        "Personal or family involvement",
+        "To be active",
+        "Social contact",
+        "To use skills",
+        "Religious or cultural connection",
+        "To reduce own loneliness"
+      ],
+      "title": null
+    },
+    "x": {
+      "field": "pct",
+      "type": "quantitative",
+      "title": "Share of volunteers (%)",
+      "scale": {
+        "domain": [
+          0,
+          80
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "height": {
+          "band": 0.72
+        }
+      },
+      "encoding": {
+        "color": {
+          "field": "tie",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Connection to people and community",
+              "Other reasons"
+            ],
+            "range": [
+              "#138a8a",
+              "#c9ced9"
+            ]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "reason",
+            "type": "nominal",
+            "title": "Reason"
+          },
+          {
+            "field": "pct",
+            "type": "quantitative",
+            "title": "%"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#1d2540"
+      },
+      "encoding": {
+        "text": {
+          "field": "pct",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

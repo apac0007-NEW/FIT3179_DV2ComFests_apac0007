@@ -1,0 +1,2243 @@
+[
+ {
+  "lat": -27.6422,
+  "lon": 153.0199,
+  "n": 3,
+  "venue": "Greenways Esplanade Park, Parkinson",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6391,
+  "lon": 153.0386,
+  "n": 3,
+  "venue": "Parkinson Aquatic Centre, Parkinson",
+  "venueType": "Swimming pool",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.6258,
+  "lon": 153.0959,
+  "n": 13,
+  "venue": "Karawatha Forest Park and Discovery Centre",
+  "venueType": "Park",
+  "weekday": 8,
+  "weekendN": 5
+ },
+ {
+  "lat": -27.6253,
+  "lon": 152.9688,
+  "n": 3,
+  "venue": "Forest Lake mobile library",
+  "venueType": "Council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6232,
+  "lon": 152.9975,
+  "n": 7,
+  "venue": "Pallara Park, Pallara",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.6217,
+  "lon": 152.9605,
+  "n": 6,
+  "venue": "The Lake Parklands, Forest Lake",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6212,
+  "lon": 153.0381,
+  "n": 22,
+  "venue": "Calamvale District Park, Calamvale",
+  "venueType": "Park",
+  "weekday": 15,
+  "weekendN": 7
+ },
+ {
+  "lat": -27.6186,
+  "lon": 152.9656,
+  "n": 3,
+  "venue": "Forest Lake Sports Fields, Forest Lake",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.6183,
+  "lon": 152.9724,
+  "n": 9,
+  "venue": "Forest Lake Community Hall, Forest Lake",
+  "venueType": "Community hall",
+  "weekday": 9,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6149,
+  "lon": 152.9362,
+  "n": 6,
+  "venue": "Elorac Place Community Centre",
+  "venueType": "Non-council venue",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6107,
+  "lon": 153.0551,
+  "n": 16,
+  "venue": "Sunnybank Hills Library",
+  "venueType": "Library",
+  "weekday": 11,
+  "weekendN": 5
+ },
+ {
+  "lat": -27.6082,
+  "lon": 152.9345,
+  "n": 2,
+  "venue": "Ellen Grove mobile library",
+  "venueType": "Council venue",
+  "weekday": 2,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6081,
+  "lon": 152.9339,
+  "n": 3,
+  "venue": "Carole Park Pool, Wacol",
+  "venueType": "Swimming pool",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6055,
+  "lon": 153.098,
+  "n": 4,
+  "venue": "Svoboda Park, Kuraby",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6037,
+  "lon": 153.1022,
+  "n": 3,
+  "venue": "King Street Park, Kuraby",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.6027,
+  "lon": 153.0705,
+  "n": 3,
+  "venue": "Williams Park, Runcorn",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5982,
+  "lon": 152.963,
+  "n": 4,
+  "venue": "Hub Neighbourhood Centre, Inala",
+  "venueType": "Non-council venue",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5976,
+  "lon": 152.9747,
+  "n": 16,
+  "venue": "Inala Library",
+  "venueType": "Library",
+  "weekday": 15,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.5916,
+  "lon": 153.0757,
+  "n": 18,
+  "venue": "Runcorn Pool, Runcorn",
+  "venueType": "Swimming pool",
+  "weekday": 6,
+  "weekendN": 12
+ },
+ {
+  "lat": -27.5907,
+  "lon": 153.0703,
+  "n": 3,
+  "venue": "Wakerley Park, Wakerley",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.59,
+  "lon": 152.9765,
+  "n": 3,
+  "venue": "Old Inala Hall, Inala",
+  "venueType": "Community hall",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5874,
+  "lon": 153.0258,
+  "n": 6,
+  "venue": "Acacia Ridge Hall, Acacia Ridge",
+  "venueType": "Community hall",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5865,
+  "lon": 153.0254,
+  "n": 3,
+  "venue": "C.A. O'Sullivan Park, Acacia Ridge",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5863,
+  "lon": 153.0263,
+  "n": 24,
+  "venue": "Acacia Ridge Leisure Centre, Acacia Ridge",
+  "venueType": "Swimming pool",
+  "weekday": 6,
+  "weekendN": 18
+ },
+ {
+  "lat": -27.5861,
+  "lon": 152.9884,
+  "n": 15,
+  "venue": "Archerfield Wetlands Community Hub, Durack",
+  "venueType": "Community hall",
+  "weekday": 15,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5812,
+  "lon": 152.9603,
+  "n": 3,
+  "venue": "C. J. Greenfield Community Hall, Richlands",
+  "venueType": "Community hall",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5787,
+  "lon": 153.0594,
+  "n": 3,
+  "venue": "Sunnybank Hall, Sunnybank",
+  "venueType": "Community hall",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5767,
+  "lon": 153.1108,
+  "n": 9,
+  "venue": "Rochedale Community Hall, Rochedale",
+  "venueType": "Community hall",
+  "weekday": 9,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5754,
+  "lon": 153.0578,
+  "n": 12,
+  "venue": "Sunnybank Community Centre, Sunnybank",
+  "venueType": "Community hall",
+  "weekday": 9,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5724,
+  "lon": 152.95,
+  "n": 3,
+  "venue": "Ducie Street Park, Darra",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5711,
+  "lon": 153.0733,
+  "n": 6,
+  "venue": "D.M. Henderson Park, Macgregor",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5665,
+  "lon": 153.036,
+  "n": 3,
+  "venue": "St David's Neighbourhood Centre, Coopers Plains",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5664,
+  "lon": 153.1008,
+  "n": 6,
+  "venue": "Wishart Community Park, Wishart",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 6
+ },
+ {
+  "lat": -27.5651,
+  "lon": 153.0397,
+  "n": 19,
+  "venue": "Coopers Plains Library",
+  "venueType": "Library",
+  "weekday": 16,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5638,
+  "lon": 152.8897,
+  "n": 3,
+  "venue": "Bellbowrie Pool, Bellbowrie",
+  "venueType": "Swimming pool",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5637,
+  "lon": 152.8926,
+  "n": 3,
+  "venue": "Booker Place Park, Bellbowrie",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5623,
+  "lon": 152.8885,
+  "n": 4,
+  "venue": "Bellbowrie mobile library",
+  "venueType": "Council venue",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5622,
+  "lon": 152.8927,
+  "n": 3,
+  "venue": "Moggill Girl Guides, Bellbowrie",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5615,
+  "lon": 153.0658,
+  "n": 4,
+  "venue": "Mount Gravatt Outlook Reserve, Mount Gravatt",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.5615,
+  "lon": 153.0804,
+  "n": 26,
+  "venue": "Garden City Library",
+  "venueType": "Library",
+  "weekday": 22,
+  "weekendN": 4
+ },
+ {
+  "lat": -27.5557,
+  "lon": 153.0799,
+  "n": 12,
+  "venue": "Upper Mt Gravatt Progress Hall, Upper Mount Gravatt",
+  "venueType": "Community hall",
+  "weekday": 12,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5526,
+  "lon": 153.0714,
+  "n": 10,
+  "venue": "Mt Gravatt PCYC, Upper Mount Gravatt",
+  "venueType": "Non-council venue",
+  "weekday": 10,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5523,
+  "lon": 152.9783,
+  "n": 4,
+  "venue": "Nixon Park, Oxley",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5521,
+  "lon": 152.9407,
+  "n": 11,
+  "venue": "Mt Ommaney Library",
+  "venueType": "Library",
+  "weekday": 11,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.552,
+  "lon": 153.0735,
+  "n": 12,
+  "venue": "Hibiscus Sports Complex Pool, Upper Mount Gravatt",
+  "venueType": "Swimming pool",
+  "weekday": 0,
+  "weekendN": 12
+ },
+ {
+  "lat": -27.5498,
+  "lon": 152.9395,
+  "n": 1,
+  "venue": "Mt Ommaney Centre, Mount Ommaney",
+  "venueType": "Non-council venue",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.5468,
+  "lon": 152.9825,
+  "n": 9,
+  "venue": "Dunlop Park Memorial Swimming Pool, Corinda",
+  "venueType": "Swimming pool",
+  "weekday": 3,
+  "weekendN": 6
+ },
+ {
+  "lat": -27.5445,
+  "lon": 152.8387,
+  "n": 3,
+  "venue": "Kookaburra Park - West, Karana Downs",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5429,
+  "lon": 152.9609,
+  "n": 20,
+  "venue": "Rocks Riverside Park, Seventeen Mile Rocks",
+  "venueType": "Park",
+  "weekday": 14,
+  "weekendN": 6
+ },
+ {
+  "lat": -27.5407,
+  "lon": 152.9708,
+  "n": 4,
+  "venue": "Biami Yumba Park, Fig Tree Pocket",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5404,
+  "lon": 152.9872,
+  "n": 1,
+  "venue": "Corinda Bowls Club",
+  "venueType": "Non-council venue",
+  "weekday": 1,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5389,
+  "lon": 152.9817,
+  "n": 7,
+  "venue": "Corinda Library",
+  "venueType": "Library",
+  "weekday": 7,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5386,
+  "lon": 153.0801,
+  "n": 10,
+  "venue": "Mt Gravatt Library",
+  "venueType": "Library",
+  "weekday": 9,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.5354,
+  "lon": 153.0208,
+  "n": 11,
+  "venue": "Moorooka Community Centre, Moorooka",
+  "venueType": "Community hall",
+  "weekday": 10,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.534,
+  "lon": 152.9803,
+  "n": 9,
+  "venue": "Sherwood Neighbourhood Centre, Sherwood",
+  "venueType": "Non-council venue",
+  "weekday": 9,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5331,
+  "lon": 152.9428,
+  "n": 9,
+  "venue": "Jindalee Pool, Jindalee",
+  "venueType": "Swimming pool",
+  "weekday": 9,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5327,
+  "lon": 152.9741,
+  "n": 7,
+  "venue": "Sherwood Arboretum, Sherwood",
+  "venueType": "Park",
+  "weekday": 7,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5312,
+  "lon": 153.0278,
+  "n": 2,
+  "venue": "Clubhouse Moorooka, Moorooka",
+  "venueType": "Non-council venue",
+  "weekday": 0,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.5296,
+  "lon": 152.929,
+  "n": 7,
+  "venue": "Jindalee Boat Ramp Park, Jindalee",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.5237,
+  "lon": 152.9929,
+  "n": 3,
+  "venue": "Graceville Riverside Parklands, Graceville",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5234,
+  "lon": 152.9736,
+  "n": 6,
+  "venue": "Graceville Bowls Club, Graceville",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5233,
+  "lon": 153.0726,
+  "n": 3,
+  "venue": "Ray Lynch Park, Holland Park",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5227,
+  "lon": 153.0721,
+  "n": 15,
+  "venue": "Holland Park Library",
+  "venueType": "Library",
+  "weekday": 13,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.522,
+  "lon": 152.9337,
+  "n": 6,
+  "venue": "Twilight Street Park, Kenmore",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5219,
+  "lon": 152.9907,
+  "n": 3,
+  "venue": "Simpsons Playground",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5218,
+  "lon": 153.0714,
+  "n": 5,
+  "venue": "Seville Park, Holland Park",
+  "venueType": "Park",
+  "weekday": 5,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5216,
+  "lon": 153.0199,
+  "n": 6,
+  "venue": "Yeronga Park Memorial Swimming Pool, Yeronga",
+  "venueType": "Swimming pool",
+  "weekday": 0,
+  "weekendN": 6
+ },
+ {
+  "lat": -27.5209,
+  "lon": 153.0682,
+  "n": 3,
+  "venue": "Glindemann  Park, Holland Park West",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5199,
+  "lon": 153.1036,
+  "n": 3,
+  "venue": "Tillack Park, Mansfield",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5196,
+  "lon": 153.0242,
+  "n": 3,
+  "venue": "Yeronga Memorial Park, Yeronga",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5188,
+  "lon": 153.0414,
+  "n": 3,
+  "venue": "Shaftesbury Street Park, Tarragindi",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5162,
+  "lon": 152.9592,
+  "n": 3,
+  "venue": "Rainbow Forest Park, Indooroopilly",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5156,
+  "lon": 153.0594,
+  "n": 3,
+  "venue": "C.B. Mott Park, Holland Park",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5131,
+  "lon": 152.9503,
+  "n": 3,
+  "venue": "Akuna Street Park, Kenmore",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.511,
+  "lon": 153.083,
+  "n": 3,
+  "venue": "Whites Hill Reserve, Camp Hill",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5098,
+  "lon": 153.1474,
+  "n": 1,
+  "venue": "Sleeman Sports Complex, Chandler",
+  "venueType": "Non-council venue",
+  "weekday": 1,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5097,
+  "lon": 153.034,
+  "n": 3,
+  "venue": "Annerley Hall, Annerley",
+  "venueType": "Community hall",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5096,
+  "lon": 153.0331,
+  "n": 11,
+  "venue": "Annerley Library",
+  "venueType": "Library",
+  "weekday": 10,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.5088,
+  "lon": 153.0246,
+  "n": 12,
+  "venue": "Fairfield Library",
+  "venueType": "Library",
+  "weekday": 10,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.5086,
+  "lon": 153.0235,
+  "n": 3,
+  "venue": "Robinson Park, Fairfield",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5083,
+  "lon": 153.0673,
+  "n": 6,
+  "venue": "Majestic Park, Coorparoo",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.5069,
+  "lon": 152.9382,
+  "n": 18,
+  "venue": "Kenmore Library",
+  "venueType": "Library",
+  "weekday": 17,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.5059,
+  "lon": 153.0102,
+  "n": 7,
+  "venue": "John Walker Place, Yeronga",
+  "venueType": "Park",
+  "weekday": 7,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.505,
+  "lon": 152.9185,
+  "n": 3,
+  "venue": "Boyd Terrace Park, Brookfield",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5033,
+  "lon": 152.9765,
+  "n": 4,
+  "venue": "Witton Barracks Park, Indooroopilly",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.5027,
+  "lon": 153.1002,
+  "n": 28,
+  "venue": "Carindale Library",
+  "venueType": "Library",
+  "weekday": 26,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.5009,
+  "lon": 153.0424,
+  "n": 5,
+  "venue": "Hanlon Park / Bur'uda, Stones Corner",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 5
+ },
+ {
+  "lat": -27.5004,
+  "lon": 152.9287,
+  "n": 3,
+  "venue": "Old Friary, Kenmore Hills",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4995,
+  "lon": 152.9822,
+  "n": 4,
+  "venue": "Essex Road Park, Indooroopilly",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4994,
+  "lon": 152.9737,
+  "n": 3,
+  "venue": "Keating Park, Indooroopilly",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4992,
+  "lon": 152.9718,
+  "n": 3,
+  "venue": "Indooroopilly Activity Hub, Indooroopilly",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4984,
+  "lon": 153.0437,
+  "n": 9,
+  "venue": "Stones Corner Library",
+  "venueType": "Library",
+  "weekday": 8,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.498,
+  "lon": 153.0277,
+  "n": 1,
+  "venue": "South Brisbane Cemetery, Dutton Park",
+  "venueType": "Council venue",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4979,
+  "lon": 152.9963,
+  "n": 6,
+  "venue": "St Lucia Community Hall, St Lucia",
+  "venueType": "Community hall",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4979,
+  "lon": 153.1106,
+  "n": 3,
+  "venue": "Carindale Recreation Reserve, Carindale",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4977,
+  "lon": 152.9725,
+  "n": 27,
+  "venue": "Indooroopilly Library",
+  "venueType": "Library",
+  "weekday": 21,
+  "weekendN": 6
+ },
+ {
+  "lat": -27.4961,
+  "lon": 153.1008,
+  "n": 1,
+  "venue": "Belmont Services Bowls Club, Carina",
+  "venueType": "Non-council venue",
+  "weekday": 1,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4957,
+  "lon": 153.0581,
+  "n": 3,
+  "venue": "Coorparoo School of Arts Hall, Coorparoo",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4936,
+  "lon": 153.0898,
+  "n": 13,
+  "venue": "Carina Library",
+  "venueType": "Library",
+  "weekday": 12,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4936,
+  "lon": 153.1188,
+  "n": 9,
+  "venue": "Preston Road Park, Carina",
+  "venueType": "Park",
+  "weekday": 9,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4931,
+  "lon": 153.0014,
+  "n": 9,
+  "venue": "Guyatt Park, St Lucia",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4919,
+  "lon": 153.0913,
+  "n": 3,
+  "venue": "Joe Bradfield Centre Park, Carina",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4917,
+  "lon": 152.9921,
+  "n": 4,
+  "venue": "Perrin Park, Toowong",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4913,
+  "lon": 152.9796,
+  "n": 4,
+  "venue": "Taringa Playground Park, Taringa",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4908,
+  "lon": 152.9927,
+  "n": 6,
+  "venue": "Toowong Community Meeting Place, Toowong",
+  "venueType": "Community hall",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4894,
+  "lon": 152.998,
+  "n": 1,
+  "venue": "Orleigh Park, West End",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4892,
+  "lon": 153.0609,
+  "n": 1,
+  "venue": "Wembley Park, Coorparoo",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4863,
+  "lon": 153.0012,
+  "n": 1,
+  "venue": "Thomas Dixon Centre, West End",
+  "venueType": "Non-council venue",
+  "weekday": 1,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4861,
+  "lon": 153.0756,
+  "n": 3,
+  "venue": "Perth Street Park, Camp Hill",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4855,
+  "lon": 152.9919,
+  "n": 21,
+  "venue": "Toowong Library",
+  "venueType": "Library",
+  "weekday": 19,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.4838,
+  "lon": 152.9997,
+  "n": 3,
+  "venue": "West End Riverside Lands Park, West End",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4824,
+  "lon": 153.0119,
+  "n": 8,
+  "venue": "West End Library",
+  "venueType": "Library",
+  "weekday": 8,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4819,
+  "lon": 153.0265,
+  "n": 1,
+  "venue": "Queensland Maritime Museum Park, South Brisbane",
+  "venueType": "Park",
+  "weekday": 1,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4819,
+  "lon": 153.0317,
+  "n": 2,
+  "venue": "Kangaroo Point Cliffs Park, Kangaroo Point",
+  "venueType": "Park",
+  "weekday": 1,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4804,
+  "lon": 153.0666,
+  "n": 3,
+  "venue": "Pattison Park, Norman Park",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4801,
+  "lon": 153.0146,
+  "n": 6,
+  "venue": "Musgrave Park Pool, South Brisbane",
+  "venueType": "Swimming pool",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.48,
+  "lon": 153.0383,
+  "n": 3,
+  "venue": "Raymond Park, Kangaroo Point",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4796,
+  "lon": 152.98,
+  "n": 3,
+  "venue": "Anzac Park, Toowong",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4788,
+  "lon": 153.0301,
+  "n": 5,
+  "venue": "Riverstage, Brisbane City",
+  "venueType": "Council venue",
+  "weekday": 3,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.4788,
+  "lon": 153.0841,
+  "n": 3,
+  "venue": "Seven Hills Bushland Reserve, Seven Hills",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4786,
+  "lon": 153.0044,
+  "n": 3,
+  "venue": "Davies Park, West End",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4785,
+  "lon": 153.0442,
+  "n": 4,
+  "venue": "Mowbray Park, East Brisbane",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 4
+ },
+ {
+  "lat": -27.4783,
+  "lon": 153.0525,
+  "n": 1,
+  "venue": "Heath Park, East Brisbane",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4775,
+  "lon": 153.0735,
+  "n": 1,
+  "venue": "Seven Hills Hub",
+  "venueType": "Council venue",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4774,
+  "lon": 153.1185,
+  "n": 3,
+  "venue": "Minnippi Parklands",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4772,
+  "lon": 153.0575,
+  "n": 3,
+  "venue": "Wilson Park, Norman Park",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4763,
+  "lon": 153.1453,
+  "n": 2,
+  "venue": "Bill McFarlane Park, Wakerley",
+  "venueType": "Park",
+  "weekday": 2,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.476,
+  "lon": 153.0265,
+  "n": 18,
+  "venue": "City Botanic Gardens - Information Kiosk, Brisbane City",
+  "venueType": "Park",
+  "weekday": 15,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.476,
+  "lon": 153.0277,
+  "n": 9,
+  "venue": "City Botanic Gardens, Brisbane City",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 6
+ },
+ {
+  "lat": -27.4759,
+  "lon": 152.9777,
+  "n": 38,
+  "venue": "Brisbane Botanic Gardens Mt Coot-tha",
+  "venueType": "Park",
+  "weekday": 29,
+  "weekendN": 9
+ },
+ {
+  "lat": -27.4757,
+  "lon": 152.9771,
+  "n": 49,
+  "venue": "Sir Thomas Brisbane Planetarium, Mt Coot-tha",
+  "venueType": "Library",
+  "weekday": 11,
+  "weekendN": 38
+ },
+ {
+  "lat": -27.4756,
+  "lon": 152.976,
+  "n": 5,
+  "venue": "Mt Coot-tha Library",
+  "venueType": "Library",
+  "weekday": 5,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4753,
+  "lon": 152.9739,
+  "n": 2,
+  "venue": "Botanic Gardens Auditorium, Brisbane Botanic Gardens Mt Coot-tha",
+  "venueType": "Library",
+  "weekday": 0,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.475,
+  "lon": 152.9775,
+  "n": 8,
+  "venue": "Richard Randall Art Studio, Toowong",
+  "venueType": "Community hall",
+  "weekday": 4,
+  "weekendN": 4
+ },
+ {
+  "lat": -27.4744,
+  "lon": 153.0176,
+  "n": 3,
+  "venue": "Queensland Performing Arts Centre (QPAC), South Brisbane",
+  "venueType": "Non-council venue",
+  "weekday": 2,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4721,
+  "lon": 153.0666,
+  "n": 3,
+  "venue": "Balmoral Park, Morningside",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4711,
+  "lon": 153.0226,
+  "n": 26,
+  "venue": "Brisbane Square Library",
+  "venueType": "Library",
+  "weekday": 21,
+  "weekendN": 5
+ },
+ {
+  "lat": -27.4711,
+  "lon": 153.0229,
+  "n": 3,
+  "venue": "Reddacliff Place, Brisbane City",
+  "venueType": "Council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4697,
+  "lon": 153.0253,
+  "n": 9,
+  "venue": "Queen Street Mall, Brisbane City",
+  "venueType": "Council venue",
+  "weekday": 7,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.4695,
+  "lon": 153.0238,
+  "n": 1,
+  "venue": "Brisbane Business Hub, Brisbane City",
+  "venueType": "Non-council venue",
+  "weekday": 1,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4693,
+  "lon": 152.9981,
+  "n": 9,
+  "venue": "Roy Emerson Tennis Centre, Milton",
+  "venueType": "Non-council venue",
+  "weekday": 6,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4692,
+  "lon": 153.0002,
+  "n": 4,
+  "venue": "Frew Park, Milton",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4692,
+  "lon": 153.1852,
+  "n": 1,
+  "venue": "Cox Park, Lota",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4691,
+  "lon": 153.0241,
+  "n": 276,
+  "venue": "Museum of Brisbane, Brisbane City",
+  "venueType": "Council venue",
+  "weekday": 228,
+  "weekendN": 48
+ },
+ {
+  "lat": -27.4686,
+  "lon": 153.0785,
+  "n": 3,
+  "venue": "The Y Cannon Hill Community Centre",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4684,
+  "lon": 153.0242,
+  "n": 2,
+  "venue": "King George Square, Brisbane City",
+  "venueType": "Park",
+  "weekday": 2,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4682,
+  "lon": 153.0518,
+  "n": 12,
+  "venue": "New Farm Park, New Farm",
+  "venueType": "Park",
+  "weekday": 1,
+  "weekendN": 11
+ },
+ {
+  "lat": -27.4682,
+  "lon": 153.0808,
+  "n": 4,
+  "venue": "Regent Park, Cannon Hill",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4681,
+  "lon": 153.1047,
+  "n": 3,
+  "venue": "Murarrie Recreation Ground, Murarrie",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4674,
+  "lon": 152.9575,
+  "n": 3,
+  "venue": "J.C. Slaughter Falls - Mt Coot-tha Reserve",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4674,
+  "lon": 153.0528,
+  "n": 8,
+  "venue": "Brisbane Powerhouse, New Farm",
+  "venueType": "Council venue",
+  "weekday": 6,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.4669,
+  "lon": 153.0497,
+  "n": 11,
+  "venue": "New Farm Library",
+  "venueType": "Library",
+  "weekday": 10,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4665,
+  "lon": 153.0266,
+  "n": 1,
+  "venue": "Anzac Square, Brisbane City",
+  "venueType": "Non-council venue",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4657,
+  "lon": 153.1922,
+  "n": 15,
+  "venue": "Lota Camping Reserve, Lota",
+  "venueType": "Park",
+  "weekday": 9,
+  "weekendN": 6
+ },
+ {
+  "lat": -27.4654,
+  "lon": 153.0349,
+  "n": 6,
+  "venue": "Captain Burke Park, Kangaroo Point",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4637,
+  "lon": 153.062,
+  "n": 6,
+  "venue": "Hawthorne Park, Hawthorne",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4635,
+  "lon": 153.0291,
+  "n": 4,
+  "venue": "Cathedral Square, Brisbane City",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.463,
+  "lon": 153.0187,
+  "n": 3,
+  "venue": "Roma Street Parkland, Brisbane City",
+  "venueType": "Park",
+  "weekday": 1,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.4628,
+  "lon": 153.0104,
+  "n": 6,
+  "venue": "Ithaca Pool, Paddington",
+  "venueType": "Swimming pool",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4628,
+  "lon": 153.0142,
+  "n": 14,
+  "venue": "Petrie Terrace Gallery, Petrie Terrace",
+  "venueType": "Non-council venue",
+  "weekday": 7,
+  "weekendN": 7
+ },
+ {
+  "lat": -27.4616,
+  "lon": 153.0769,
+  "n": 4,
+  "venue": "Morningside Tennis Centre, Morningside",
+  "venueType": "Non-council venue",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4587,
+  "lon": 152.9962,
+  "n": 3,
+  "venue": "BrisWest Centre",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4581,
+  "lon": 152.9771,
+  "n": 3,
+  "venue": "Bowman Park, Bardon",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4545,
+  "lon": 153.0345,
+  "n": 3,
+  "venue": "Visible Ink, Fortitude Valley",
+  "venueType": "Council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4538,
+  "lon": 153.0127,
+  "n": 3,
+  "venue": "E. E. McCaskie Oval, Kelvin Grove",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4538,
+  "lon": 153.0538,
+  "n": 9,
+  "venue": "Bulimba Riverside Park, Bulimba",
+  "venueType": "Park",
+  "weekday": 9,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4535,
+  "lon": 153.0578,
+  "n": 3,
+  "venue": "Bulimba Community Centre",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4535,
+  "lon": 153.1875,
+  "n": 3,
+  "venue": "Manly Pool, Manly",
+  "venueType": "Swimming pool",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.453,
+  "lon": 153.0824,
+  "n": 1,
+  "venue": "Colmslie Recreation Reserve, Morningside",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4524,
+  "lon": 152.9821,
+  "n": 3,
+  "venue": "Jubilee Park, Bardon",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4523,
+  "lon": 153.0572,
+  "n": 7,
+  "venue": "Bulimba Memorial Park, Bulimba",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4521,
+  "lon": 153.187,
+  "n": 2,
+  "venue": "Bayside Park, Manly",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.4519,
+  "lon": 153.0626,
+  "n": 1,
+  "venue": "Bulimba Library",
+  "venueType": "Library",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4507,
+  "lon": 152.9821,
+  "n": 4,
+  "venue": "Fletcher Parade Park (nos.161-231), Bardon",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4494,
+  "lon": 152.9993,
+  "n": 3,
+  "venue": "Woolcock Park, Red Hill",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4485,
+  "lon": 153.0455,
+  "n": 3,
+  "venue": "Waterfront Park, Newstead",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4469,
+  "lon": 152.9536,
+  "n": 3,
+  "venue": "Walton Bridge Reserve, The Gap",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4468,
+  "lon": 153.1765,
+  "n": 17,
+  "venue": "Wynnum Municipal Hall, Wynnum",
+  "venueType": "Community hall",
+  "weekday": 17,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4468,
+  "lon": 153.1864,
+  "n": 9,
+  "venue": "Drevesen Park, Manly",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.446,
+  "lon": 152.9538,
+  "n": 1,
+  "venue": "The Gap mobile library",
+  "venueType": "Council venue",
+  "weekday": 1,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4447,
+  "lon": 153.0797,
+  "n": 6,
+  "venue": "Northshore Tennis Centre, Hamilton",
+  "venueType": "Non-council venue",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4446,
+  "lon": 153.1723,
+  "n": 10,
+  "venue": "Wynnum Community Centre, Wynnum",
+  "venueType": "Community hall",
+  "weekday": 10,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4444,
+  "lon": 153.1719,
+  "n": 30,
+  "venue": "Wynnum Library",
+  "venueType": "Library",
+  "weekday": 27,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4442,
+  "lon": 152.9741,
+  "n": 3,
+  "venue": "St Johns Avenue Park (nos. 7-27), Ashgrove",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4439,
+  "lon": 152.9871,
+  "n": 23,
+  "venue": "Ashgrove Library",
+  "venueType": "Library",
+  "weekday": 22,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4429,
+  "lon": 153.0291,
+  "n": 3,
+  "venue": "Northey Street City Farm",
+  "venueType": "Council venue",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4425,
+  "lon": 153.0459,
+  "n": 3,
+  "venue": "Newstead Park, Newstead",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.442,
+  "lon": 153.1766,
+  "n": 15,
+  "venue": "Wynnum Wading Pool Park, Wynnum",
+  "venueType": "Park",
+  "weekday": 11,
+  "weekendN": 4
+ },
+ {
+  "lat": -27.4419,
+  "lon": 152.9735,
+  "n": 3,
+  "venue": "Ashgrove Sportsground Park, Ashgrove",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4401,
+  "lon": 152.9858,
+  "n": 9,
+  "venue": "Dorrington Park, Ashgrove",
+  "venueType": "Park",
+  "weekday": 8,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4388,
+  "lon": 152.9329,
+  "n": 3,
+  "venue": "Wittonga Park, The Gap",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4388,
+  "lon": 153.0424,
+  "n": 1,
+  "venue": "Yowoggera Park, Albion",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.438,
+  "lon": 153.0645,
+  "n": 19,
+  "venue": "Hamilton Town Hall, Hamilton",
+  "venueType": "Community hall",
+  "weekday": 18,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4363,
+  "lon": 153.174,
+  "n": 2,
+  "venue": "Breakwater Park, Wynnum",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.4361,
+  "lon": 153.0037,
+  "n": 1,
+  "venue": "Ashgrove Avenue Park, Ashgrove",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4327,
+  "lon": 153.0516,
+  "n": 1,
+  "venue": "Crosby Road Park, Ascot",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4293,
+  "lon": 153.0577,
+  "n": 3,
+  "venue": "Oriel Park, Ascot",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4248,
+  "lon": 153.0176,
+  "n": 14,
+  "venue": "Grange Library",
+  "venueType": "Library",
+  "weekday": 13,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4204,
+  "lon": 152.9927,
+  "n": 4,
+  "venue": "Enoggera Bowls Club, Enoggera",
+  "venueType": "Non-council venue",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4172,
+  "lon": 152.9784,
+  "n": 20,
+  "venue": "Mitchelton Library",
+  "venueType": "Library",
+  "weekday": 17,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4172,
+  "lon": 153.0015,
+  "n": 3,
+  "venue": "Grinstead Park, Alderley",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4164,
+  "lon": 152.9426,
+  "n": 3,
+  "venue": "Kings Park, Keperra",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4148,
+  "lon": 153.0035,
+  "n": 1,
+  "venue": "Shand Street Park (No.100), Stafford",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.4115,
+  "lon": 152.9184,
+  "n": 3,
+  "venue": "Upper Kedron Hall, Upper Kedron",
+  "venueType": "Community hall",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4112,
+  "lon": 153.0456,
+  "n": 7,
+  "venue": "The Community Place, Kalinga",
+  "venueType": "Non-council venue",
+  "weekday": 7,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4079,
+  "lon": 153.0042,
+  "n": 17,
+  "venue": "The Community Place, Stafford",
+  "venueType": "Non-council venue",
+  "weekday": 17,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4072,
+  "lon": 153.0068,
+  "n": 9,
+  "venue": "Keong Park, Stafford",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4061,
+  "lon": 153.0421,
+  "n": 3,
+  "venue": "Shaw Park Tennis Centre, Wooloowin",
+  "venueType": "Non-council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4059,
+  "lon": 153.0511,
+  "n": 10,
+  "venue": "Kalinga Park, Kalinga",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 4
+ },
+ {
+  "lat": -27.4055,
+  "lon": 152.9902,
+  "n": 17,
+  "venue": "Everton Park Library",
+  "venueType": "Library",
+  "weekday": 13,
+  "weekendN": 4
+ },
+ {
+  "lat": -27.4053,
+  "lon": 152.9816,
+  "n": 12,
+  "venue": "Teralba Park, Everton Park",
+  "venueType": "Park",
+  "weekday": 9,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4047,
+  "lon": 153.0486,
+  "n": 3,
+  "venue": "Shaw Park, Wavell Heights",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4028,
+  "lon": 152.939,
+  "n": 9,
+  "venue": "Ferny Grove Picnic Ground Park, Ferny Grove",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.4019,
+  "lon": 153.0593,
+  "n": 3,
+  "venue": "Suburban Business Hub, Nundah",
+  "venueType": "Council venue",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.4012,
+  "lon": 153.0584,
+  "n": 9,
+  "venue": "Nundah Library",
+  "venueType": "Library",
+  "weekday": 9,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.401,
+  "lon": 153.0571,
+  "n": 4,
+  "venue": "Boyd Park, Nundah",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3962,
+  "lon": 153.0279,
+  "n": 2,
+  "venue": "Bradbury Park, Kedron",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.3903,
+  "lon": 153.0055,
+  "n": 12,
+  "venue": "Downfall Creek Bushland Centre",
+  "venueType": "Park",
+  "weekday": 12,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3899,
+  "lon": 153.0319,
+  "n": 6,
+  "venue": "Burnie Brae Centre, Chermside",
+  "venueType": "Non-council venue",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3897,
+  "lon": 153.0354,
+  "n": 3,
+  "venue": "Burnie Brae Park, Chermside",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3882,
+  "lon": 153.0617,
+  "n": 6,
+  "venue": "Northgate Hall, Northgate",
+  "venueType": "Community hall",
+  "weekday": 6,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.388,
+  "lon": 153.0167,
+  "n": 3,
+  "venue": "Huxtable Park, Chermside West",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.381,
+  "lon": 153.0297,
+  "n": 25,
+  "venue": "Chermside Library",
+  "venueType": "Library",
+  "weekday": 24,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.3794,
+  "lon": 153.0303,
+  "n": 2,
+  "venue": "7th Brigade Park, Chermside",
+  "venueType": "Park",
+  "weekday": 2,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3786,
+  "lon": 153.0124,
+  "n": 1,
+  "venue": "John Goss Reserve, Chermside West",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.3777,
+  "lon": 152.9865,
+  "n": 3,
+  "venue": "McDowall Reserve",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3743,
+  "lon": 153.0786,
+  "n": 11,
+  "venue": "Banyo Library",
+  "venueType": "Library",
+  "weekday": 10,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.3739,
+  "lon": 153.0784,
+  "n": 3,
+  "venue": "Banyo Memorial Park, Banyo",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3734,
+  "lon": 152.9918,
+  "n": 1,
+  "venue": "Beckett Road Park, McDowall",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.3636,
+  "lon": 153.0157,
+  "n": 2,
+  "venue": "Aspley mobile library",
+  "venueType": "Council venue",
+  "weekday": 2,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3631,
+  "lon": 153.0376,
+  "n": 1,
+  "venue": "Zillmere Hall, Zillmere",
+  "venueType": "Community hall",
+  "weekday": 1,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3627,
+  "lon": 153.0434,
+  "n": 6,
+  "venue": "O'Callaghan Park, Zillmere",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.3599,
+  "lon": 153.0407,
+  "n": 15,
+  "venue": "Zillmere Library",
+  "venueType": "Library",
+  "weekday": 13,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.3581,
+  "lon": 153.0149,
+  "n": 4,
+  "venue": "Aspley Rest Park, Carseldine",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3517,
+  "lon": 153.0535,
+  "n": 3,
+  "venue": "Mulbeam Park, Boondall",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3437,
+  "lon": 153.0969,
+  "n": 4,
+  "venue": "Nudgee Beach Reserve, Nudgee Beach",
+  "venueType": "Park",
+  "weekday": 4,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.3367,
+  "lon": 153.0741,
+  "n": 8,
+  "venue": "Boondall Wetlands Environment Centre",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.3332,
+  "lon": 153.0303,
+  "n": 2,
+  "venue": "Bill Brown Sports Reserve, Fitzgibbon",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.3258,
+  "lon": 153.0747,
+  "n": 1,
+  "venue": "Curlew Park, Sandgate",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.3245,
+  "lon": 153.0848,
+  "n": 8,
+  "venue": "Moora Park, Shorncliffe",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.3207,
+  "lon": 153.0704,
+  "n": 14,
+  "venue": "Sandgate Library",
+  "venueType": "Library",
+  "weekday": 12,
+  "weekendN": 2
+ },
+ {
+  "lat": -27.3201,
+  "lon": 153.0698,
+  "n": 1,
+  "venue": "Sandgate Town Hall, Sandgate",
+  "venueType": "Community hall",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.318,
+  "lon": 153.0369,
+  "n": 3,
+  "venue": "Ferguson Park, Bracken Ridge",
+  "venueType": "Park",
+  "weekday": 3,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.318,
+  "lon": 153.0379,
+  "n": 19,
+  "venue": "Bracken Ridge Library",
+  "venueType": "Library",
+  "weekday": 18,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.3178,
+  "lon": 153.0384,
+  "n": 12,
+  "venue": "Bracken Ridge Hall, Bracken Ridge",
+  "venueType": "Community hall",
+  "weekday": 6,
+  "weekendN": 6
+ },
+ {
+  "lat": -27.3121,
+  "lon": 153.0683,
+  "n": 9,
+  "venue": "Arthur Davis Park, Sandgate",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 3
+ },
+ {
+  "lat": -27.303,
+  "lon": 153.0562,
+  "n": 1,
+  "venue": "Goodenia Reserve, Brighton",
+  "venueType": "Park",
+  "weekday": 0,
+  "weekendN": 1
+ },
+ {
+  "lat": -27.2867,
+  "lon": 153.0646,
+  "n": 2,
+  "venue": "Brighton mobile library",
+  "venueType": "Council venue",
+  "weekday": 2,
+  "weekendN": 0
+ },
+ {
+  "lat": -27.286,
+  "lon": 153.0642,
+  "n": 8,
+  "venue": "Decker Park, Brighton",
+  "venueType": "Park",
+  "weekday": 6,
+  "weekendN": 2
+ }
+]

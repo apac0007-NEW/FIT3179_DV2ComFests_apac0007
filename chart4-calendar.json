@@ -1,0 +1,212 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Calendar heat map of the number of events starting each day over four weeks",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 290,
+  "data": {
+    "url": "daily.json"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fff",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "weekLabel",
+          "type": "ordinal",
+          "sort": [
+            "26 Oct",
+            "02 Nov",
+            "09 Nov",
+            "16 Nov"
+          ],
+          "title": "Week starting Monday",
+          "axis": {
+            "labelAngle": 0,
+            "orient": "top",
+            "titleOrient": "top"
+          }
+        },
+        "y": {
+          "field": "dow",
+          "type": "ordinal",
+          "sort": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "title": null
+        },
+        "color": {
+          "field": "n",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              30.25,
+              60.5,
+              90.75,
+              121
+            ],
+            "range": [
+              "#e6f5f1",
+              "#9fdccb",
+              "#3fb6a8",
+              "#12828e",
+              "#083a5c"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "title": "Events",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 240,
+            "gradientThickness": 10
+          }
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "nominal",
+            "title": "Date"
+          },
+          {
+            "field": "n",
+            "type": "quantitative",
+            "title": "Events"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {
+          "field": "weekLabel",
+          "type": "ordinal",
+          "sort": [
+            "26 Oct",
+            "02 Nov",
+            "09 Nov",
+            "16 Nov"
+          ]
+        },
+        "y": {
+          "field": "dow",
+          "type": "ordinal",
+          "sort": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "title": null
+        },
+        "text": {
+          "field": "n",
+          "type": "quantitative"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.n > 60",
+            "value": "#fff"
+          },
+          "value": "#1d2540"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "weekLabel": "09 Nov",
+            "dow": "Thu"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rect",
+        "fill": null,
+        "stroke": "#c2306b",
+        "strokeWidth": 3.5
+      },
+      "encoding": {
+        "x": {
+          "field": "weekLabel",
+          "type": "ordinal",
+          "sort": [
+            "26 Oct",
+            "02 Nov",
+            "09 Nov",
+            "16 Nov"
+          ]
+        },
+        "y": {
+          "field": "dow",
+          "type": "ordinal",
+          "sort": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun"
+          ],
+          "title": null
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

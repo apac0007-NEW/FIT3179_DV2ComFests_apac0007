@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Streamgraph of events per day by kind of event; click the legend to highlight one kind",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 330,
+  "data": {
+    "url": "daily_category.json"
+  },
+  "params": [
+    {
+      "name": "hl",
+      "select": {
+        "type": "point",
+        "fields": [
+          "category"
+        ]
+      },
+      "bind": "legend"
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "format": "%d %b",
+        "tickCount": 8
+      }
+    },
+    "y": {
+      "field": "n",
+      "type": "quantitative",
+      "stack": "center",
+      "axis": null
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Festivals & markets",
+          "Arts & culture",
+          "Fitness & wellbeing",
+          "Nature & green",
+          "Workshops & tours",
+          "Library",
+          "Family",
+          "Other"
+        ],
+        "range": [
+          "#c2306b",
+          "#7a4bd1",
+          "#138a8a",
+          "#5aa02c",
+          "#f2a900",
+          "#4d8be8",
+          "#e8743b",
+          "#9aa3b5"
+        ]
+      },
+      "legend": {
+        "title": null,
+        "orient": "top",
+        "columns": 4,
+        "symbolType": "square"
+      }
+    },
+    "opacity": {
+      "condition": {
+        "param": "hl",
+        "value": 1
+      },
+      "value": 0.3
+    },
+    "tooltip": [
+      {
+        "field": "category",
+        "type": "nominal",
+        "title": "Kind"
+      },
+      {
+        "field": "n",
+        "type": "quantitative",
+        "title": "Events"
+      }
+    ]
+  },
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

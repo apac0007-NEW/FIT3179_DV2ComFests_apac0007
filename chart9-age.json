@@ -1,0 +1,105 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar chart of how many events name each age group",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 300,
+  "data": {
+    "url": "age.json"
+  },
+  "encoding": {
+    "y": {
+      "field": "ageGroup",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null
+    },
+    "x": {
+      "field": "n",
+      "type": "quantitative",
+      "title": "Events naming this group",
+      "scale": {
+        "domain": [
+          0,
+          950
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "height": {
+          "band": 0.72
+        },
+        "color": "#138a8a"
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "ageGroup",
+            "type": "nominal",
+            "title": "Age group"
+          },
+          {
+            "field": "n",
+            "type": "quantitative",
+            "title": "Events"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#1d2540"
+      },
+      "encoding": {
+        "text": {
+          "field": "n",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

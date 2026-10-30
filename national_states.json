@@ -1,0 +1,90 @@
+[
+ {
+  "state": "New South Wales",
+  "abbr": "NSW",
+  "rate2025": 22.3,
+  "rate2020": 23.1,
+  "fall": 0.8,
+  "lat": -32.6,
+  "lon": 146.6,
+  "label": "NSW 22.3%",
+  "labelFall": "NSW -0.8"
+ },
+ {
+  "state": "Victoria",
+  "abbr": "Vic",
+  "rate2025": 21.8,
+  "rate2020": 24.4,
+  "fall": 2.6,
+  "lat": -36.9,
+  "lon": 144.6,
+  "label": "Vic 21.8%",
+  "labelFall": "Vic -2.6"
+ },
+ {
+  "state": "Queensland",
+  "abbr": "Qld",
+  "rate2025": 22.0,
+  "rate2020": 25.4,
+  "fall": 3.4,
+  "lat": -22.6,
+  "lon": 144.4,
+  "label": "Qld 22.0%",
+  "labelFall": "Qld -3.4"
+ },
+ {
+  "state": "South Australia",
+  "abbr": "SA",
+  "rate2025": 23.6,
+  "rate2020": 26.2,
+  "fall": 2.6,
+  "lat": -30.0,
+  "lon": 135.6,
+  "label": "SA 23.6%",
+  "labelFall": "SA -2.6"
+ },
+ {
+  "state": "Western Australia",
+  "abbr": "WA",
+  "rate2025": 23.9,
+  "rate2020": 25.6,
+  "fall": 1.7,
+  "lat": -25.5,
+  "lon": 122.2,
+  "label": "WA 23.9%",
+  "labelFall": "WA -1.7"
+ },
+ {
+  "state": "Tasmania",
+  "abbr": "Tas",
+  "rate2025": 27.5,
+  "rate2020": 30.2,
+  "fall": 2.7,
+  "lat": -42.1,
+  "lon": 146.6,
+  "label": "Tas 27.5%",
+  "labelFall": "Tas -2.7"
+ },
+ {
+  "state": "Northern Territory",
+  "abbr": "NT",
+  "rate2025": 26.7,
+  "rate2020": 28.4,
+  "fall": 1.7,
+  "lat": -19.4,
+  "lon": 133.4,
+  "label": "NT 26.7%",
+  "labelFall": "NT -1.7"
+ },
+ {
+  "state": "Australian Capital Territory",
+  "abbr": "ACT",
+  "rate2025": 22.0,
+  "rate2020": 30.9,
+  "fall": 8.9,
+  "lat": -35.6,
+  "lon": 153.9,
+  "label": "ACT 22.0%",
+  "labelFall": "ACT -8.9"
+ }
+]

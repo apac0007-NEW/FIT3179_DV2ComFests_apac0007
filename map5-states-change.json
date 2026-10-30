@@ -1,0 +1,544 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Choropleth map of Australia: fall in the share volunteering since 2020, in percentage points",
+  "config": {
+    "view": {
+      "stroke": null,
+      "fill": "#dcecf4"
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "usermeta": {
+    "map": true,
+    "w0": 520,
+    "h0": 470,
+    "scale0": 640
+  },
+  "width": 520,
+  "height": 470,
+  "projection": {
+    "type": "albers",
+    "rotate": [
+      -134,
+      0
+    ],
+    "center": [
+      0,
+      -27
+    ],
+    "parallels": [
+      -18,
+      -36
+    ],
+    "scale": 640
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "states.geojson",
+        "format": {
+          "property": "features"
+        }
+      },
+      "transform": [
+        {
+          "lookup": "properties.STATE_NAME",
+          "from": {
+            "data": {
+              "url": "national_states.json"
+            },
+            "key": "state",
+            "fields": [
+              "fall",
+              "abbr"
+            ]
+          }
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.2
+      },
+      "encoding": {
+        "color": {
+          "field": "fall",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0.5,
+              2.5,
+              4.5,
+              6.5,
+              9
+            ],
+            "range": [
+              "#fff1e0",
+              "#ffc98a",
+              "#f78e5a",
+              "#d1386b",
+              "#6a0f4a"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "title": "Fall (percentage points)",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 200,
+            "gradientThickness": 12,
+            "format": ".0f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "properties.STATE_NAME",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "fall",
+            "type": "quantitative",
+            "title": "Fall (percentage points)"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbr": "Tas",
+            "v": "\u22122.7 pts",
+            "lat": -42.0,
+            "lon": 150.2,
+            "lat2": -42.0,
+            "lon2": 148.4
+          },
+          {
+            "abbr": "ACT",
+            "v": "\u22128.9 pts",
+            "lat": -35.45,
+            "lon": 153.4,
+            "lat2": -35.45,
+            "lon2": 150.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#1d2540",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude2": {
+          "field": "lat2"
+        },
+        "longitude2": {
+          "field": "lon2"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "state": "Australian Capital Territory",
+            "abbr": "ACT",
+            "rate2025": 22.0,
+            "rate2020": 30.9,
+            "fall": 8.9,
+            "lat": -35.35,
+            "lon": 149.13,
+            "label": "ACT 22.0%",
+            "labelFall": "ACT -8.9"
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "size": 150,
+        "stroke": "#ffffff",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "fall",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0.5,
+              2.5,
+              4.5,
+              6.5,
+              9
+            ],
+            "range": [
+              "#fff1e0",
+              "#ffc98a",
+              "#f78e5a",
+              "#d1386b",
+              "#6a0f4a"
+            ],
+            "clamp": true
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "Territory"
+          },
+          {
+            "field": "fall",
+            "type": "quantitative",
+            "title": "Fall (percentage points)"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbr": "NSW",
+            "v": "\u22120.8 pts",
+            "lat": -32.7,
+            "lon": 146.4
+          },
+          {
+            "abbr": "Vic",
+            "v": "\u22122.6 pts",
+            "lat": -36.9,
+            "lon": 144.3
+          },
+          {
+            "abbr": "Qld",
+            "v": "\u22123.4 pts",
+            "lat": -22.6,
+            "lon": 144.4
+          },
+          {
+            "abbr": "SA",
+            "v": "\u22122.6 pts",
+            "lat": -30.0,
+            "lon": 135.6
+          },
+          {
+            "abbr": "WA",
+            "v": "\u22121.7 pts",
+            "lat": -25.5,
+            "lon": 122.2
+          },
+          {
+            "abbr": "NT",
+            "v": "\u22121.7 pts",
+            "lat": -19.4,
+            "lon": 133.4
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 800,
+        "color": "#1d2540",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "dy": -8
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbr",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbr": "NSW",
+            "v": "\u22120.8 pts",
+            "lat": -32.7,
+            "lon": 146.4
+          },
+          {
+            "abbr": "Vic",
+            "v": "\u22122.6 pts",
+            "lat": -36.9,
+            "lon": 144.3
+          },
+          {
+            "abbr": "Qld",
+            "v": "\u22123.4 pts",
+            "lat": -22.6,
+            "lon": 144.4
+          },
+          {
+            "abbr": "SA",
+            "v": "\u22122.6 pts",
+            "lat": -30.0,
+            "lon": 135.6
+          },
+          {
+            "abbr": "WA",
+            "v": "\u22121.7 pts",
+            "lat": -25.5,
+            "lon": 122.2
+          },
+          {
+            "abbr": "NT",
+            "v": "\u22121.7 pts",
+            "lat": -19.4,
+            "lon": 133.4
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "color": "#1d2540",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "dy": 7
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "v",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbr": "Tas",
+            "v": "\u22122.7 pts",
+            "lat": -42.0,
+            "lon": 150.2,
+            "lat2": -42.0,
+            "lon2": 148.4
+          },
+          {
+            "abbr": "ACT",
+            "v": "\u22128.9 pts",
+            "lat": -35.45,
+            "lon": 153.4,
+            "lat2": -35.45,
+            "lon2": 150.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 800,
+        "color": "#1d2540",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "align": "left",
+        "dx": 4,
+        "dy": -8
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbr",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbr": "Tas",
+            "v": "\u22122.7 pts",
+            "lat": -42.0,
+            "lon": 150.2,
+            "lat2": -42.0,
+            "lon2": 148.4
+          },
+          {
+            "abbr": "ACT",
+            "v": "\u22128.9 pts",
+            "lat": -35.45,
+            "lon": 153.4,
+            "lat2": -35.45,
+            "lon2": 150.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "color": "#1d2540",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "align": "left",
+        "dx": 4,
+        "dy": 7
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "v",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lat": -27.47,
+            "lon": 153.03
+          }
+        ]
+      },
+      "mark": {
+        "type": "point",
+        "shape": "diamond",
+        "size": 190,
+        "filled": true,
+        "color": "#f2a900",
+        "stroke": "#1d2540",
+        "strokeWidth": 1.6
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lat": -27.47,
+            "lon": 153.03,
+            "t": "Brisbane"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "color": "#1d2540",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "fontStyle": "italic",
+        "align": "left",
+        "dx": 11,
+        "dy": 0
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Stacked bar chart of the share of events in each kind that need booking",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 340,
+  "data": {
+    "url": "booking.json"
+  },
+  "encoding": {
+    "y": {
+      "field": "category",
+      "type": "nominal",
+      "sort": [
+        "Festivals & markets",
+        "Arts & culture",
+        "Fitness & wellbeing",
+        "Nature & green",
+        "Workshops & tours",
+        "Library",
+        "Family",
+        "Other"
+      ],
+      "title": null
+    },
+    "x": {
+      "field": "n",
+      "type": "quantitative",
+      "stack": "normalize",
+      "title": "Share of events",
+      "axis": {
+        "format": "%"
+      }
+    },
+    "color": {
+      "field": "booking",
+      "type": "nominal",
+      "sort": [
+        "Booking required",
+        "No booking",
+        "Not stated"
+      ],
+      "scale": {
+        "domain": [
+          "Booking required",
+          "No booking",
+          "Not stated"
+        ],
+        "range": [
+          "#c2306b",
+          "#138a8a",
+          "#c9ced9"
+        ]
+      },
+      "legend": {
+        "title": null,
+        "orient": "top"
+      }
+    },
+    "order": {
+      "field": "booking",
+      "sort": "ascending"
+    },
+    "tooltip": [
+      {
+        "field": "category",
+        "type": "nominal",
+        "title": "Kind"
+      },
+      {
+        "field": "booking",
+        "type": "nominal",
+        "title": "Booking"
+      },
+      {
+        "field": "n",
+        "type": "quantitative",
+        "title": "Events"
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "height": {
+      "band": 0.72
+    }
+  },
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

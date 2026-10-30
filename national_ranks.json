@@ -1,0 +1,178 @@
+[
+ {
+  "state": "Australian Capital Territory",
+  "abbr": "ACT",
+  "year": 2020,
+  "x": 0,
+  "rank": 1,
+  "pos": 1.0,
+  "rate": 30.9,
+  "label": "ACT 30.9%",
+  "group": "ACT"
+ },
+ {
+  "state": "Tasmania",
+  "abbr": "Tas",
+  "year": 2020,
+  "x": 0,
+  "rank": 2,
+  "pos": 2.0,
+  "rate": 30.2,
+  "label": "Tas 30.2%",
+  "group": "Tas"
+ },
+ {
+  "state": "Northern Territory",
+  "abbr": "NT",
+  "year": 2020,
+  "x": 0,
+  "rank": 3,
+  "pos": 3.0,
+  "rate": 28.4,
+  "label": "NT 28.4%",
+  "group": "Other"
+ },
+ {
+  "state": "South Australia",
+  "abbr": "SA",
+  "year": 2020,
+  "x": 0,
+  "rank": 4,
+  "pos": 4.0,
+  "rate": 26.2,
+  "label": "SA 26.2%",
+  "group": "Other"
+ },
+ {
+  "state": "Western Australia",
+  "abbr": "WA",
+  "year": 2020,
+  "x": 0,
+  "rank": 5,
+  "pos": 5.0,
+  "rate": 25.6,
+  "label": "WA 25.6%",
+  "group": "Other"
+ },
+ {
+  "state": "Queensland",
+  "abbr": "Qld",
+  "year": 2020,
+  "x": 0,
+  "rank": 6,
+  "pos": 6.0,
+  "rate": 25.4,
+  "label": "Qld 25.4%",
+  "group": "Other"
+ },
+ {
+  "state": "Victoria",
+  "abbr": "Vic",
+  "year": 2020,
+  "x": 0,
+  "rank": 7,
+  "pos": 7.0,
+  "rate": 24.4,
+  "label": "Vic 24.4%",
+  "group": "Other"
+ },
+ {
+  "state": "New South Wales",
+  "abbr": "NSW",
+  "year": 2020,
+  "x": 0,
+  "rank": 8,
+  "pos": 8.0,
+  "rate": 23.1,
+  "label": "NSW 23.1%",
+  "group": "Other"
+ },
+ {
+  "state": "Tasmania",
+  "abbr": "Tas",
+  "year": 2025,
+  "x": 1,
+  "rank": 1,
+  "pos": 1.0,
+  "rate": 27.5,
+  "label": "Tas 27.5%",
+  "group": "Tas"
+ },
+ {
+  "state": "Northern Territory",
+  "abbr": "NT",
+  "year": 2025,
+  "x": 1,
+  "rank": 2,
+  "pos": 2.0,
+  "rate": 26.7,
+  "label": "NT 26.7%",
+  "group": "Other"
+ },
+ {
+  "state": "Western Australia",
+  "abbr": "WA",
+  "year": 2025,
+  "x": 1,
+  "rank": 3,
+  "pos": 3.0,
+  "rate": 23.9,
+  "label": "WA 23.9%",
+  "group": "Other"
+ },
+ {
+  "state": "South Australia",
+  "abbr": "SA",
+  "year": 2025,
+  "x": 1,
+  "rank": 4,
+  "pos": 4.0,
+  "rate": 23.6,
+  "label": "SA 23.6%",
+  "group": "Other"
+ },
+ {
+  "state": "New South Wales",
+  "abbr": "NSW",
+  "year": 2025,
+  "x": 1,
+  "rank": 5,
+  "pos": 5.0,
+  "rate": 22.3,
+  "label": "NSW 22.3%",
+  "group": "Other"
+ },
+ {
+  "state": "Australian Capital Territory",
+  "abbr": "ACT",
+  "year": 2025,
+  "x": 1,
+  "rank": 6,
+  "pos": 6.0,
+  "rate": 22.0,
+  "label": "ACT 22.0% (joint)",
+  "group": "ACT"
+ },
+ {
+  "state": "Queensland",
+  "abbr": "Qld",
+  "year": 2025,
+  "x": 1,
+  "rank": 6,
+  "pos": 6.5,
+  "rate": 22.0,
+  "label": "Qld 22.0% (joint)",
+  "group": "Other"
+ },
+ {
+  "state": "Victoria",
+  "abbr": "Vic",
+  "year": 2025,
+  "x": 1,
+  "rank": 8,
+  "pos": 8.0,
+  "rate": 21.8,
+  "label": "Vic 21.8%",
+  "group": "Other"
+ }
+]

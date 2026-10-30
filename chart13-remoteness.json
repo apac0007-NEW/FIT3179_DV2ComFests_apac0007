@@ -1,0 +1,201 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Dumbbell chart of formal and informal volunteering by remoteness area",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 260,
+  "data": {
+    "url": "national_remote_wide.json"
+  },
+  "encoding": {
+    "y": {
+      "field": "area",
+      "type": "nominal",
+      "sort": [
+        "Major cities",
+        "Inner regional",
+        "Outer regional",
+        "Remote"
+      ],
+      "title": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#c9ced9",
+        "strokeWidth": 5
+      },
+      "encoding": {
+        "x": {
+          "field": "formal",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              16,
+              40
+            ]
+          },
+          "title": "People volunteering (%)"
+        },
+        "x2": {
+          "field": "informal"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 220,
+        "color": "#138a8a",
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "formal",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              16,
+              40
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "area",
+            "type": "nominal",
+            "title": "Area"
+          },
+          {
+            "field": "formal",
+            "type": "quantitative",
+            "title": "Formal (%)"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 220,
+        "color": "#f2a900",
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "informal",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              16,
+              40
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "area",
+            "type": "nominal",
+            "title": "Area"
+          },
+          {
+            "field": "informal",
+            "type": "quantitative",
+            "title": "Informal (%)"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -14,
+        "fontSize": 14,
+        "fontWeight": 700,
+        "color": "#0b5f5f"
+      },
+      "encoding": {
+        "x": {
+          "field": "formal",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              16,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "formal",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 14,
+        "fontSize": 14,
+        "fontWeight": 700,
+        "color": "#8a6100"
+      },
+      "encoding": {
+        "x": {
+          "field": "informal",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              16,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "informal",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

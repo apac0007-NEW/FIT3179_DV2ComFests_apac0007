@@ -1,0 +1,245 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Heat map of reasons non-volunteers give for not volunteering, by age group",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 320,
+  "data": {
+    "url": "national_why.json"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fff",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "age",
+          "type": "nominal",
+          "sort": [
+            "15-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65+"
+          ],
+          "title": "Age group",
+          "axis": {
+            "labelAngle": 0,
+            "orient": "top",
+            "titleOrient": "top"
+          }
+        },
+        "y": {
+          "field": "reason",
+          "type": "nominal",
+          "sort": [
+            "Not interested or no need",
+            "Not sure how, or never asked",
+            "No suitable opportunities",
+            "Money",
+            "Health",
+            "No time"
+          ],
+          "title": null
+        },
+        "color": {
+          "field": "pct",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              15,
+              30,
+              45,
+              58
+            ],
+            "range": [
+              "#e6f5f1",
+              "#9fdccb",
+              "#3fb6a8",
+              "#12828e",
+              "#083a5c"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "title": "Non-volunteers (%)",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 240,
+            "gradientThickness": 10
+          }
+        },
+        "tooltip": [
+          {
+            "field": "reason",
+            "type": "nominal",
+            "title": "Reason"
+          },
+          {
+            "field": "age",
+            "type": "nominal",
+            "title": "Age"
+          },
+          {
+            "field": "pct",
+            "type": "quantitative",
+            "title": "%"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {
+          "field": "age",
+          "type": "nominal",
+          "sort": [
+            "15-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65+"
+          ],
+          "title": "Age group",
+          "axis": {
+            "labelAngle": 0,
+            "orient": "top",
+            "titleOrient": "top"
+          }
+        },
+        "y": {
+          "field": "reason",
+          "type": "nominal",
+          "sort": [
+            "Not interested or no need",
+            "Not sure how, or never asked",
+            "No suitable opportunities",
+            "Money",
+            "Health",
+            "No time"
+          ],
+          "title": null
+        },
+        "text": {
+          "field": "pct",
+          "type": "quantitative",
+          "format": ".1f"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.pct > 30",
+            "value": "#fff"
+          },
+          "value": "#1d2540"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "reason": "No time",
+            "age": "25-34"
+          },
+          {
+            "reason": "No time",
+            "age": "35-44"
+          },
+          {
+            "reason": "No time",
+            "age": "45-54"
+          },
+          {
+            "reason": "Not sure how, or never asked",
+            "age": "15-24"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rect",
+        "fill": null,
+        "stroke": "#c2306b",
+        "strokeWidth": 3.5
+      },
+      "encoding": {
+        "x": {
+          "field": "age",
+          "type": "nominal",
+          "sort": [
+            "15-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65+"
+          ],
+          "title": "Age group",
+          "axis": {
+            "labelAngle": 0,
+            "orient": "top",
+            "titleOrient": "top"
+          }
+        },
+        "y": {
+          "field": "reason",
+          "type": "nominal",
+          "sort": [
+            "Not interested or no need",
+            "Not sure how, or never asked",
+            "No suitable opportunities",
+            "Money",
+            "Health",
+            "No time"
+          ],
+          "title": null
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

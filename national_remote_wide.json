@@ -1,0 +1,22 @@
+[
+ {
+  "area": "Major cities",
+  "formal": 20.9,
+  "informal": 29.2
+ },
+ {
+  "area": "Inner regional",
+  "formal": 26.7,
+  "informal": 30.1
+ },
+ {
+  "area": "Outer regional",
+  "formal": 28.0,
+  "informal": 30.2
+ },
+ {
+  "area": "Remote",
+  "formal": 34.0,
+  "informal": 34.2
+ }
+]

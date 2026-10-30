@@ -1,0 +1,107 @@
+[
+ {
+  "category": "Arts & culture",
+  "booking": "Booking required",
+  "n": 92
+ },
+ {
+  "category": "Arts & culture",
+  "booking": "No booking",
+  "n": 123
+ },
+ {
+  "category": "Arts & culture",
+  "booking": "Not stated",
+  "n": 1
+ },
+ {
+  "category": "Family",
+  "booking": "Booking required",
+  "n": 2
+ },
+ {
+  "category": "Family",
+  "booking": "No booking",
+  "n": 9
+ },
+ {
+  "category": "Family",
+  "booking": "Not stated",
+  "n": 20
+ },
+ {
+  "category": "Festivals & markets",
+  "booking": "Booking required",
+  "n": 4
+ },
+ {
+  "category": "Festivals & markets",
+  "booking": "No booking",
+  "n": 26
+ },
+ {
+  "category": "Fitness & wellbeing",
+  "booking": "Booking required",
+  "n": 124
+ },
+ {
+  "category": "Fitness & wellbeing",
+  "booking": "No booking",
+  "n": 29
+ },
+ {
+  "category": "Fitness & wellbeing",
+  "booking": "Not stated",
+  "n": 826
+ },
+ {
+  "category": "Library",
+  "booking": "Booking required",
+  "n": 74
+ },
+ {
+  "category": "Library",
+  "booking": "No booking",
+  "n": 43
+ },
+ {
+  "category": "Library",
+  "booking": "Not stated",
+  "n": 504
+ },
+ {
+  "category": "Nature & green",
+  "booking": "Booking required",
+  "n": 22
+ },
+ {
+  "category": "Nature & green",
+  "booking": "No booking",
+  "n": 47
+ },
+ {
+  "category": "Other",
+  "booking": "Booking required",
+  "n": 3
+ },
+ {
+  "category": "Other",
+  "booking": "No booking",
+  "n": 3
+ },
+ {
+  "category": "Other",
+  "booking": "Not stated",
+  "n": 28
+ },
+ {
+  "category": "Workshops & tours",
+  "booking": "Booking required",
+  "n": 10
+ },
+ {
+  "category": "Workshops & tours",
+  "booking": "No booking",
+  "n": 8
+ }
+]

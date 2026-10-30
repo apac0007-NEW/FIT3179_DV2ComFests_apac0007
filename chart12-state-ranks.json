@@ -1,0 +1,381 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Slope chart of state and territory ranks by volunteering rate, 2020 to 2025",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 380,
+  "data": {
+    "url": "national_ranks.json"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.75,
+              1.75
+            ]
+          }
+        },
+        "y": {
+          "field": "pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "reverse": true,
+            "domain": [
+              0.2,
+              8.6
+            ]
+          }
+        },
+        "detail": {
+          "field": "state",
+          "type": "nominal"
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "ACT",
+              "Tas",
+              "Other"
+            ],
+            "range": [
+              "#c2306b",
+              "#138a8a",
+              "#8d96aa"
+            ]
+          },
+          "legend": null
+        },
+        "opacity": {
+          "condition": {
+            "param": "pick",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.22
+        }
+      }
+    },
+    {
+      "params": [
+        {
+          "name": "pick",
+          "select": {
+            "type": "point",
+            "fields": [
+              "state"
+            ],
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 150,
+        "stroke": "#fff",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.75,
+              1.75
+            ]
+          }
+        },
+        "y": {
+          "field": "pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "reverse": true,
+            "domain": [
+              0.2,
+              8.6
+            ]
+          }
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "ACT",
+              "Tas",
+              "Other"
+            ],
+            "range": [
+              "#c2306b",
+              "#138a8a",
+              "#8d96aa"
+            ]
+          },
+          "legend": null
+        },
+        "opacity": {
+          "condition": {
+            "param": "pick",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.22
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "rate",
+            "type": "quantitative",
+            "title": "Volunteers (%)"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2020"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -14,
+        "fontSize": 14
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.75,
+              1.75
+            ]
+          }
+        },
+        "y": {
+          "field": "pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "reverse": true,
+            "domain": [
+              0.2,
+              8.6
+            ]
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "ACT",
+              "Tas",
+              "Other"
+            ],
+            "range": [
+              "#c2306b",
+              "#138a8a",
+              "#8d96aa"
+            ]
+          },
+          "legend": null
+        },
+        "opacity": {
+          "condition": {
+            "param": "pick",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.22
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2025"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 14,
+        "fontSize": 14
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.75,
+              1.75
+            ]
+          }
+        },
+        "y": {
+          "field": "pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "reverse": true,
+            "domain": [
+              0.2,
+              8.6
+            ]
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "ACT",
+              "Tas",
+              "Other"
+            ],
+            "range": [
+              "#c2306b",
+              "#138a8a",
+              "#8d96aa"
+            ]
+          },
+          "legend": null
+        },
+        "opacity": {
+          "condition": {
+            "param": "pick",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.22
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 0,
+            "t": "2020",
+            "p": 0.45
+          },
+          {
+            "x": 1,
+            "t": "2025",
+            "p": 0.45
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "color": "#1d2540",
+        "font": "Bricolage Grotesque"
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.75,
+              1.75
+            ]
+          }
+        },
+        "y": {
+          "field": "p",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "reverse": true,
+            "domain": [
+              0.2,
+              8.6
+            ]
+          }
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

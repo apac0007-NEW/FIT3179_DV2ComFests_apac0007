@@ -1,0 +1,281 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Night map of Brisbane: events per hexagon, brighter hexagons hold more events, festival and market venues shown as pink dots",
+  "config": {
+    "view": {
+      "stroke": null,
+      "fill": "#0e1a33"
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "usermeta": {
+    "map": true,
+    "w0": 560,
+    "h0": 470,
+    "scale0": 72498
+  },
+  "width": 560,
+  "height": 470,
+  "projection": {
+    "type": "mercator",
+    "center": [
+      153.055,
+      -27.47
+    ],
+    "scale": 72498
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "states.geojson",
+        "format": {
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#1f3259",
+        "stroke": "#3b5384",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "hexgrid.json",
+        "format": {
+          "property": "features"
+        }
+      },
+      "params": [
+        {
+          "name": "hov",
+          "select": {
+            "type": "point",
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "strokeJoin": "round",
+        "opacity": 0.92
+      },
+      "encoding": {
+        "stroke": {
+          "condition": {
+            "param": "hov",
+            "empty": false,
+            "value": "#ffffff"
+          },
+          "value": "#0e1a33"
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "hov",
+            "empty": false,
+            "value": 2.5
+          },
+          "value": 0.8
+        },
+        "color": {
+          "field": "properties.n",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              1,
+              10,
+              40,
+              120,
+              302
+            ],
+            "range": [
+              "#10294a",
+              "#0f6b7a",
+              "#1fb5a0",
+              "#7ae08f",
+              "#f6f08a"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "title": "Events per hexagon",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 220,
+            "gradientThickness": 12,
+            "values": [
+              1,
+              50,
+              150,
+              300
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "properties.n",
+            "type": "quantitative",
+            "title": "Events"
+          },
+          {
+            "field": "properties.types",
+            "type": "quantitative",
+            "title": "Kinds of event"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "venues_festival.json"
+      },
+      "mark": {
+        "type": "circle",
+        "size": 70,
+        "color": "#ff3d8b",
+        "stroke": "#fff",
+        "strokeWidth": 1.2,
+        "opacity": 0.95
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "venue",
+            "type": "nominal",
+            "title": "Festival or market venue"
+          },
+          {
+            "field": "n",
+            "type": "quantitative",
+            "title": "Events"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "name": "Chermside",
+            "lat": -27.386,
+            "lon": 153.034
+          },
+          {
+            "name": "Indooroopilly",
+            "lat": -27.5,
+            "lon": 152.973
+          },
+          {
+            "name": "Carindale",
+            "lat": -27.505,
+            "lon": 153.1
+          },
+          {
+            "name": "Sunnybank",
+            "lat": -27.576,
+            "lon": 153.058
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontStyle": "italic",
+        "color": "#c9d4ee",
+        "stroke": "#0e1a33",
+        "strokeWidth": 3,
+        "paintOrder": "stroke",
+        "align": "left",
+        "dx": 7,
+        "dy": -7
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "name",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lat": -27.464113028655234,
+            "lon": 153.03361705194058,
+            "t": "Densest hexagon: 302 events"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "color": "#fff3b0",
+        "stroke": "#0e1a33",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "align": "right",
+        "dx": -22,
+        "dy": -24
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

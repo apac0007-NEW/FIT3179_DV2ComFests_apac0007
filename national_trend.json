@@ -1,0 +1,42 @@
+[
+ {
+  "year": 2010,
+  "type": "Formal",
+  "rate": 36.2
+ },
+ {
+  "year": 2014,
+  "type": "Formal",
+  "rate": 30.9
+ },
+ {
+  "year": 2019,
+  "type": "Formal",
+  "rate": 28.8
+ },
+ {
+  "year": 2020,
+  "type": "Formal",
+  "rate": 25.0
+ },
+ {
+  "year": 2025,
+  "type": "Formal",
+  "rate": 22.6
+ },
+ {
+  "year": 2019,
+  "type": "Informal",
+  "rate": 33.4
+ },
+ {
+  "year": 2020,
+  "type": "Informal",
+  "rate": 32.1
+ },
+ {
+  "year": 2025,
+  "type": "Informal",
+  "rate": 29.5
+ }
+]

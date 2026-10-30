@@ -1,0 +1,134 @@
+[
+ {
+  "date": "2026-10-29",
+  "dow": "Thu",
+  "weekLabel": "26 Oct",
+  "n": 115
+ },
+ {
+  "date": "2026-10-30",
+  "dow": "Fri",
+  "weekLabel": "26 Oct",
+  "n": 101
+ },
+ {
+  "date": "2026-10-31",
+  "dow": "Sat",
+  "weekLabel": "26 Oct",
+  "n": 108
+ },
+ {
+  "date": "2026-11-01",
+  "dow": "Sun",
+  "weekLabel": "26 Oct",
+  "n": 50
+ },
+ {
+  "date": "2026-11-02",
+  "dow": "Mon",
+  "weekLabel": "02 Nov",
+  "n": 87
+ },
+ {
+  "date": "2026-11-03",
+  "dow": "Tue",
+  "weekLabel": "02 Nov",
+  "n": 91
+ },
+ {
+  "date": "2026-11-04",
+  "dow": "Wed",
+  "weekLabel": "02 Nov",
+  "n": 113
+ },
+ {
+  "date": "2026-11-05",
+  "dow": "Thu",
+  "weekLabel": "02 Nov",
+  "n": 111
+ },
+ {
+  "date": "2026-11-06",
+  "dow": "Fri",
+  "weekLabel": "02 Nov",
+  "n": 101
+ },
+ {
+  "date": "2026-11-07",
+  "dow": "Sat",
+  "weekLabel": "02 Nov",
+  "n": 98
+ },
+ {
+  "date": "2026-11-08",
+  "dow": "Sun",
+  "weekLabel": "02 Nov",
+  "n": 54
+ },
+ {
+  "date": "2026-11-09",
+  "dow": "Mon",
+  "weekLabel": "09 Nov",
+  "n": 83
+ },
+ {
+  "date": "2026-11-10",
+  "dow": "Tue",
+  "weekLabel": "09 Nov",
+  "n": 94
+ },
+ {
+  "date": "2026-11-11",
+  "dow": "Wed",
+  "weekLabel": "09 Nov",
+  "n": 108
+ },
+ {
+  "date": "2026-11-12",
+  "dow": "Thu",
+  "weekLabel": "09 Nov",
+  "n": 121
+ },
+ {
+  "date": "2026-11-13",
+  "dow": "Fri",
+  "weekLabel": "09 Nov",
+  "n": 101
+ },
+ {
+  "date": "2026-11-14",
+  "dow": "Sat",
+  "weekLabel": "09 Nov",
+  "n": 93
+ },
+ {
+  "date": "2026-11-15",
+  "dow": "Sun",
+  "weekLabel": "09 Nov",
+  "n": 49
+ },
+ {
+  "date": "2026-11-16",
+  "dow": "Mon",
+  "weekLabel": "16 Nov",
+  "n": 83
+ },
+ {
+  "date": "2026-11-17",
+  "dow": "Tue",
+  "weekLabel": "16 Nov",
+  "n": 91
+ },
+ {
+  "date": "2026-11-18",
+  "dow": "Wed",
+  "weekLabel": "16 Nov",
+  "n": 111
+ },
+ {
+  "date": "2026-11-19",
+  "dow": "Thu",
+  "weekLabel": "16 Nov",
+  "n": 35
+ }
+]

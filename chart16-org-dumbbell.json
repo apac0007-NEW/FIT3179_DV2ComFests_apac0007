@@ -1,0 +1,261 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Dumbbell chart comparing men and women volunteering for each type of organisation",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 400,
+  "data": {
+    "url": "national_orgs.json"
+  },
+  "encoding": {
+    "y": {
+      "field": "org",
+      "type": "nominal",
+      "sort": [
+        "Sport and physical recreation",
+        "Religious or spiritual",
+        "Community or cultural groups",
+        "Education and training",
+        "Parenting, children and youth",
+        "Welfare or homelessness",
+        "Arts or heritage",
+        "Emergency services",
+        "Health or mental health"
+      ],
+      "title": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#c9ced9",
+        "strokeWidth": 4
+      },
+      "encoding": {
+        "x": {
+          "field": "males",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              62
+            ]
+          },
+          "title": "Volunteers (%)"
+        },
+        "x2": {
+          "field": "females"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 170,
+        "color": "#138a8a",
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "males",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              62
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "org",
+            "type": "nominal",
+            "title": "Type"
+          },
+          {
+            "field": "males",
+            "type": "quantitative",
+            "title": "Men (%)"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 170,
+        "color": "#c2306b",
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "females",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              62
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "org",
+            "type": "nominal",
+            "title": "Type"
+          },
+          {
+            "field": "females",
+            "type": "quantitative",
+            "title": "Women (%)"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "org": "Sport and physical recreation",
+            "x": 42.5,
+            "t": "Men 40.0 | women 27.9"
+          },
+          {
+            "org": "Community or cultural groups",
+            "x": 21.5,
+            "t": "Women 20.1 | men 15.2"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#1d2540",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "align": "left"
+      },
+      "encoding": {
+        "y": {
+          "field": "org",
+          "type": "nominal",
+          "sort": [
+            "Sport and physical recreation",
+            "Religious or spiritual",
+            "Community or cultural groups",
+            "Education and training",
+            "Parenting, children and youth",
+            "Welfare or homelessness",
+            "Arts or heritage",
+            "Emergency services",
+            "Health or mental health"
+          ],
+          "title": null
+        },
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              62
+            ]
+          }
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "org": "Health or mental health",
+            "x": 11,
+            "t": "Teal = men    Magenta = women"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 12,
+        "color": "#5b6479",
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "y": {
+          "field": "org",
+          "type": "nominal",
+          "sort": [
+            "Sport and physical recreation",
+            "Religious or spiritual",
+            "Community or cultural groups",
+            "Education and training",
+            "Parenting, children and youth",
+            "Welfare or homelessness",
+            "Arts or heritage",
+            "Emergency services",
+            "Health or mental health"
+          ],
+          "title": null
+        },
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              62
+            ]
+          }
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

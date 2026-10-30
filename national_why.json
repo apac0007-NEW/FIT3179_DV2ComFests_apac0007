@@ -1,0 +1,182 @@
+[
+ {
+  "reason": "Not interested or no need",
+  "age": "15-24",
+  "pct": 45.1
+ },
+ {
+  "reason": "Not interested or no need",
+  "age": "25-34",
+  "pct": 35.8
+ },
+ {
+  "reason": "Not interested or no need",
+  "age": "35-44",
+  "pct": 27.2
+ },
+ {
+  "reason": "Not interested or no need",
+  "age": "45-54",
+  "pct": 28.0
+ },
+ {
+  "reason": "Not interested or no need",
+  "age": "55-64",
+  "pct": 35.1
+ },
+ {
+  "reason": "Not interested or no need",
+  "age": "65+",
+  "pct": 39.2
+ },
+ {
+  "reason": "Not sure how, or never asked",
+  "age": "15-24",
+  "pct": 22.1
+ },
+ {
+  "reason": "Not sure how, or never asked",
+  "age": "25-34",
+  "pct": 19.8
+ },
+ {
+  "reason": "Not sure how, or never asked",
+  "age": "35-44",
+  "pct": 15.2
+ },
+ {
+  "reason": "Not sure how, or never asked",
+  "age": "45-54",
+  "pct": 12.3
+ },
+ {
+  "reason": "Not sure how, or never asked",
+  "age": "55-64",
+  "pct": 14.7
+ },
+ {
+  "reason": "Not sure how, or never asked",
+  "age": "65+",
+  "pct": 11.1
+ },
+ {
+  "reason": "No suitable opportunities",
+  "age": "15-24",
+  "pct": 11.1
+ },
+ {
+  "reason": "No suitable opportunities",
+  "age": "25-34",
+  "pct": 11.3
+ },
+ {
+  "reason": "No suitable opportunities",
+  "age": "35-44",
+  "pct": 11.9
+ },
+ {
+  "reason": "No suitable opportunities",
+  "age": "45-54",
+  "pct": 7.1
+ },
+ {
+  "reason": "No suitable opportunities",
+  "age": "55-64",
+  "pct": 9.5
+ },
+ {
+  "reason": "No suitable opportunities",
+  "age": "65+",
+  "pct": 7.8
+ },
+ {
+  "reason": "Money",
+  "age": "15-24",
+  "pct": 7.8
+ },
+ {
+  "reason": "Money",
+  "age": "25-34",
+  "pct": 11.7
+ },
+ {
+  "reason": "Money",
+  "age": "35-44",
+  "pct": 14.7
+ },
+ {
+  "reason": "Money",
+  "age": "45-54",
+  "pct": 7.0
+ },
+ {
+  "reason": "Money",
+  "age": "55-64",
+  "pct": 4.6
+ },
+ {
+  "reason": "Money",
+  "age": "65+",
+  "pct": 2.4
+ },
+ {
+  "reason": "Health",
+  "age": "15-24",
+  "pct": 3.9
+ },
+ {
+  "reason": "Health",
+  "age": "25-34",
+  "pct": 4.3
+ },
+ {
+  "reason": "Health",
+  "age": "35-44",
+  "pct": 7.0
+ },
+ {
+  "reason": "Health",
+  "age": "45-54",
+  "pct": 11.0
+ },
+ {
+  "reason": "Health",
+  "age": "55-64",
+  "pct": 15.6
+ },
+ {
+  "reason": "Health",
+  "age": "65+",
+  "pct": 27.8
+ },
+ {
+  "reason": "No time",
+  "age": "15-24",
+  "pct": 45.0
+ },
+ {
+  "reason": "No time",
+  "age": "25-34",
+  "pct": 57.7
+ },
+ {
+  "reason": "No time",
+  "age": "35-44",
+  "pct": 57.7
+ },
+ {
+  "reason": "No time",
+  "age": "45-54",
+  "pct": 56.6
+ },
+ {
+  "reason": "No time",
+  "age": "55-64",
+  "pct": 43.8
+ },
+ {
+  "reason": "No time",
+  "age": "65+",
+  "pct": 24.0
+ }
+]

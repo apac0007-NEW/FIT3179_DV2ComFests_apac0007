@@ -1,0 +1,187 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Matrix heat map of the number of events for each venue type and kind of event",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 340,
+  "data": {
+    "url": "venue_category.json"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fff",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "venueGroup",
+          "type": "nominal",
+          "sort": [
+            "Library",
+            "Park",
+            "Council venue",
+            "Community hall",
+            "Swimming pool",
+            "Non-council venue"
+          ],
+          "title": null,
+          "axis": {
+            "labelAngle": 0,
+            "orient": "top",
+            "labelLimit": 110
+          }
+        },
+        "y": {
+          "field": "category",
+          "type": "nominal",
+          "sort": [
+            "Festivals & markets",
+            "Arts & culture",
+            "Fitness & wellbeing",
+            "Nature & green",
+            "Workshops & tours",
+            "Library",
+            "Family",
+            "Other"
+          ],
+          "title": null
+        },
+        "color": {
+          "field": "n",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              49.52,
+              185.7,
+              371.4,
+              619
+            ],
+            "range": [
+              "#e6f5f1",
+              "#9fdccb",
+              "#3fb6a8",
+              "#12828e",
+              "#083a5c"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "title": "Events",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 240,
+            "gradientThickness": 10
+          }
+        },
+        "tooltip": [
+          {
+            "field": "venueGroup",
+            "type": "nominal",
+            "title": "Venue"
+          },
+          {
+            "field": "category",
+            "type": "nominal",
+            "title": "Kind"
+          },
+          {
+            "field": "n",
+            "type": "quantitative",
+            "title": "Events"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {
+          "field": "venueGroup",
+          "type": "nominal",
+          "sort": [
+            "Library",
+            "Park",
+            "Council venue",
+            "Community hall",
+            "Swimming pool",
+            "Non-council venue"
+          ],
+          "title": null,
+          "axis": {
+            "labelAngle": 0,
+            "orient": "top",
+            "labelLimit": 110
+          }
+        },
+        "y": {
+          "field": "category",
+          "type": "nominal",
+          "sort": [
+            "Festivals & markets",
+            "Arts & culture",
+            "Fitness & wellbeing",
+            "Nature & green",
+            "Workshops & tours",
+            "Library",
+            "Family",
+            "Other"
+          ],
+          "title": null
+        },
+        "text": {
+          "field": "n",
+          "type": "quantitative"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.n > 185",
+            "value": "#fff"
+          },
+          "value": "#1d2540"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

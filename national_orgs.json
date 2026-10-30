@@ -1,0 +1,47 @@
+[
+ {
+  "org": "Sport and physical recreation",
+  "males": 40.0,
+  "females": 27.9
+ },
+ {
+  "org": "Religious or spiritual",
+  "males": 22.7,
+  "females": 23.8
+ },
+ {
+  "org": "Community or cultural groups",
+  "males": 15.2,
+  "females": 20.1
+ },
+ {
+  "org": "Education and training",
+  "males": 11.7,
+  "females": 15.4
+ },
+ {
+  "org": "Parenting, children and youth",
+  "males": 8.1,
+  "females": 11.7
+ },
+ {
+  "org": "Welfare or homelessness",
+  "males": 5.5,
+  "females": 7.5
+ },
+ {
+  "org": "Arts or heritage",
+  "males": 6.3,
+  "females": 5.0
+ },
+ {
+  "org": "Emergency services",
+  "males": 7.2,
+  "females": 4.1
+ },
+ {
+  "org": "Health or mental health",
+  "males": 2.5,
+  "females": 6.3
+ }
+]

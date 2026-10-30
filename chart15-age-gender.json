@@ -1,0 +1,269 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Butterfly chart of volunteering rate by age group, men on the left and women on the right",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Source Serif 4",
+    "axis": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "domain": false,
+      "tickSize": 0,
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a",
+      "gridColor": "#e8ebf3",
+      "labelPadding": 6,
+      "titlePadding": 10
+    },
+    "legend": {
+      "labelFont": "Source Serif 4",
+      "titleFont": "Source Serif 4",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": "normal",
+      "labelColor": "#39425a",
+      "titleColor": "#39425a"
+    },
+    "text": {
+      "font": "Source Serif 4"
+    }
+  },
+  "height": 340,
+  "data": {
+    "url": "national_age.json"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "height": {
+          "band": 0.72
+        }
+      },
+      "encoding": {
+        "y": {
+          "field": "age",
+          "type": "nominal",
+          "sort": [
+            "15 to 24",
+            "25 to 34",
+            "35 to 44",
+            "45 to 54",
+            "55 to 64",
+            "65 and over"
+          ],
+          "title": null
+        },
+        "x": {
+          "field": "signed",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "axis": {
+            "labelExpr": "abs(datum.value) + '%'",
+            "tickCount": 8
+          },
+          "scale": {
+            "domain": [
+              -40,
+              40
+            ]
+          }
+        },
+        "color": {
+          "field": "gender",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Men",
+              "Women"
+            ],
+            "range": [
+              "#138a8a",
+              "#c2306b"
+            ]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "gender",
+            "type": "nominal"
+          },
+          {
+            "field": "age",
+            "type": "nominal"
+          },
+          {
+            "field": "rate",
+            "type": "quantitative",
+            "title": "Volunteers (%)"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.gender == 'Men'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -5,
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#1d2540"
+      },
+      "encoding": {
+        "y": {
+          "field": "age",
+          "type": "nominal",
+          "sort": [
+            "15 to 24",
+            "25 to 34",
+            "35 to 44",
+            "45 to 54",
+            "55 to 64",
+            "65 and over"
+          ],
+          "title": null
+        },
+        "x": {
+          "field": "signed",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "axis": {
+            "labelExpr": "abs(datum.value) + '%'",
+            "tickCount": 8
+          },
+          "scale": {
+            "domain": [
+              -40,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "rate",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.gender == 'Women'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 5,
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#1d2540"
+      },
+      "encoding": {
+        "y": {
+          "field": "age",
+          "type": "nominal",
+          "sort": [
+            "15 to 24",
+            "25 to 34",
+            "35 to 44",
+            "45 to 54",
+            "55 to 64",
+            "65 and over"
+          ],
+          "title": null
+        },
+        "x": {
+          "field": "signed",
+          "type": "quantitative",
+          "title": "People volunteering (%)",
+          "axis": {
+            "labelExpr": "abs(datum.value) + '%'",
+            "tickCount": 8
+          },
+          "scale": {
+            "domain": [
+              -40,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "rate",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "age": "25 to 34",
+            "x": 21,
+            "t": "\u2190 lowest for both"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#c2306b",
+        "stroke": "#ffffff",
+        "strokeWidth": 4,
+        "paintOrder": "stroke",
+        "strokeJoin": "round",
+        "align": "left"
+      },
+      "encoding": {
+        "y": {
+          "field": "age",
+          "type": "nominal",
+          "sort": [
+            "15 to 24",
+            "25 to 34",
+            "35 to 44",
+            "45 to 54",
+            "55 to 64",
+            "65 and over"
+          ],
+          "title": null
+        },
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -40,
+              40
+            ]
+          }
+        },
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  }
+}

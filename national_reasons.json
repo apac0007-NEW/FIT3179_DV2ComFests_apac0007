@@ -1,0 +1,47 @@
+[
+ {
+  "reason": "Help others or community",
+  "pct": 65.2,
+  "tie": "Connection to people and community"
+ },
+ {
+  "reason": "Personal satisfaction",
+  "pct": 62.8,
+  "tie": "Other reasons"
+ },
+ {
+  "reason": "To support a cause",
+  "pct": 34.0,
+  "tie": "Other reasons"
+ },
+ {
+  "reason": "Personal or family involvement",
+  "pct": 31.6,
+  "tie": "Connection to people and community"
+ },
+ {
+  "reason": "To be active",
+  "pct": 29.6,
+  "tie": "Other reasons"
+ },
+ {
+  "reason": "Social contact",
+  "pct": 29.1,
+  "tie": "Connection to people and community"
+ },
+ {
+  "reason": "To use skills",
+  "pct": 24.0,
+  "tie": "Other reasons"
+ },
+ {
+  "reason": "Religious or cultural connection",
+  "pct": 20.8,
+  "tie": "Connection to people and community"
+ },
+ {
+  "reason": "To reduce own loneliness",
+  "pct": 5.9,
+  "tie": "Connection to people and community"
+ }
+]
